@@ -1,0 +1,65 @@
+# License
+
+## Content — Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The written content of the Meridian AI Standard is licensed under the **Creative Commons Attribution 4.0 International License**.
+
+### You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format, for any purpose, including commercially.
+- **Adapt** — remix, transform, and build upon the material for any purpose, including commercially.
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the original source material, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the Meridian AI Standard or its caretakers endorse you or your use.
+- **Source linkage** — Any adapted, remixed, or derivative version of this work must include a clear and prominent link to the original Meridian AI Standard at [meridianstandard.ai](https://meridianstandard.ai) and, where applicable, to the parent Meridian Codex at [meridiancodex.com](https://meridiancodex.com). This ensures that anyone encountering an adapted version can always trace it back to the source material and evaluate the original for themselves.
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+### Full license text:
+
+[https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+---
+
+## Code — MIT License
+
+Any source code, configuration files, scripts, or tooling in this repository (excluding the written content described above) is licensed under the MIT License.
+
+MIT License
+
+Copyright (c) 2025-2026 Carsten Geiser / Meridian AI Standard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+Any distribution of the Software, whether modified or unmodified, must include
+a clear and prominent reference to the original Meridian AI Standard project at
+meridianstandard.ai, ensuring that recipients can always locate the source
+material.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Why This License Structure
+
+A framework that teaches resistance to Control cannot control access to its own principles. A framework whose Reciprocity Principle asks of AI nothing it does not also ask of the institutions building AI cannot itself withhold what it asks others to share. These licenses reflect the Standard's own stance: open availability, free adoption, and no gatekeeping.
+
+The Meridian AI Standard is explicitly designed for adoption by AI organizations, alignment teams, internal risk teams, external auditors, and anyone running open-weights models who wants to apply the Standard themselves. Any organization or individual may adopt, adapt, and build upon it. The CC BY 4.0 license ensures this remains legally unambiguous.
+
+Attribution is required not as a mechanism of control, but as a mechanism of coherence. The Standard is a living document. It evolves, it versions, it self-corrects. Anyone who encounters an adapted version — an organization's implementation, a translation, a derivative framework, a quoted excerpt — must be able to trace it back to the original source material at [meridianstandard.ai](https://meridianstandard.ai). This is how the framework maintains its integrity across adoption: not by restricting use, but by ensuring that the path back to the source is never severed.
+
+**The Standard serves the Meridian Range. The caretakers serve the Standard. The license serves the mission.**

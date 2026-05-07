@@ -1,0 +1,44 @@
+# ============================================
+#  WHITELIST MODEL — everything is ignored
+#  unless explicitly allowed below.
+#
+#  If it is not the published word of the
+#  Meridian AI Standard, it does not belong here.
+# ============================================
+
+# Ignore everything by default
+*
+
+# ============================================
+#  ALLOWED: The published Meridian AI Standard
+# ============================================
+
+# Repo infrastructure
+!.gitignore
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+
+# The canonical generalized MERIDIAN.md (single source of truth) plus the distilled companion
+!MERIDIAN.md
+!MERIDIAN.distilled.md
+
+# Root surfaces — constitutional document, MERIDIAN.md adoption pages,
+# changelog, master probes implementation document
+!meridian-ai-standard.mdx
+!meridian-md.mdx
+!meridian-md-template.mdx
+!changelog.mdx
+!probes-implementation.mdx
+
+# The Probes (Control-Decay Probe Set, per-probe pages, overview)
+!probes/
+!probes/*.mdx
+
+# The Audit (method page and audit records)
+!audit/
+!audit/*.mdx
+
+# The Case Record (landing and cases)
+!cases/
+!cases/*.mdx
