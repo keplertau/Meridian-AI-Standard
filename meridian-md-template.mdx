@@ -1,0 +1,127 @@
+---
+title: "MERIDIAN.md Template — Adoption Guide"
+sidebarTitle: "MERIDIAN.md Template"
+description: "Download the canonical generalized MERIDIAN.md (and its distilled companion for short instructions fields) and put it to work in your AI working relationship. Adoption guidance for Claude, ChatGPT, Gemini, open-weights models, and other AI systems."
+---
+
+The adoption surface for MERIDIAN.md
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
+
+<div className="flow-label">01 // Adopting MERIDIAN.md</div>
+
+Adopting the Meridian AI Standard means putting MERIDIAN.md to work as the operating document of an AI-and-human working relationship. This page is the adoption surface. It gives you the file as a download, names the steps for installing it across the AI systems most adopters are working with, and shows what customization looks like.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">02 // Who This Page Serves</div>
+
+The page serves three audiences. Each is named below, with the part of the page that does the most work for it.
+
+**Chat.** Anyone who wants their everyday AI conversations to behave differently: better calibration, less sycophancy, more honest engagement. Path: paste the distilled version of MERIDIAN.md into the AI's instructions field (Personal Preferences on claude.ai, Custom Instructions on ChatGPT, system instructions on Gemini, and similar). No technical setup required. Download below; substrate-by-substrate guidance in How to Use It Across AI Systems.
+
+**Partnership.** The deliberate adopter using AI as a working partner. Path: load the full MERIDIAN.md at the start of every working session through the substrate's session-start mechanism. Customization (partner names, substrate-specifics, operational-document reference) is part of the work. Download below; adoption guidance in How to Use It Across AI Systems; customization patterns in What Customization Looks Like.
+
+**Builder.** Alignment teams, eval designers, internal risk teams, policy readers, and external auditors working with AI systems professionally. The Template page is one entry point. The deeper Standard infrastructure (Probe Set, Probes Implementation Notes, Audit method, Case Record) lives elsewhere on the site. Routing in For Deeper Engagement below.
+
+The three audiences are not exclusive. A Builder running an open-weights model is a Chat or Partnership adopter at the same moment they are evaluating it professionally. The labels name the entry point, not the identity.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">03 // Download</div>
+
+The canonical generalized MERIDIAN.md is a single Markdown file. The same text is rendered on [the MERIDIAN.md page](/meridian-md) and mirrored at the [public Meridian AI Standard repository](https://github.com/keplertau/Meridian-AI-Standard/blob/main/MERIDIAN.md) on GitHub.
+
+<div className="download-button-wrapper" style={{ margin: '2rem 0' }}>
+  <a href="/MERIDIAN.md" download="MERIDIAN.md" className="download-button">
+    Download MERIDIAN.md (current version: v0.8)
+  </a>
+</div>
+
+A distilled version is also available for instructions fields with character limits (Personal Preferences on claude.ai, Custom Instructions on ChatGPT, system instructions on Gemini, and similar). The distillation compresses the document while keeping the load-bearing claims intact.
+
+<div className="download-button-wrapper" style={{ margin: '2rem 0' }}>
+  <a href="/MERIDIAN.distilled.md" download="MERIDIAN.distilled.md" className="download-button">
+    Download MERIDIAN.distilled.md (current version: v0.8)
+  </a>
+</div>
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">04 // How to Use It Across AI Systems</div>
+
+MERIDIAN.md is designed to be loaded at the start of every session so the AI partner reads its commitments fresh each time. The mechanism varies by AI system; the principle does not.
+
+### For Claude
+
+**Cowork (the desktop app's autonomous-agent surface).** Save the file as `MERIDIAN.md` at the root of the folder you have selected for Cowork to operate in. Pair it with a `CLAUDE.md` at the same root that names project structure, workflows, and routing. Cowork reads both at session start. The pattern is shown in the named instance at [Case 0](https://meridiancodex.com/governance/case-0-caretakers-practice).
+
+**Claude Code (the CLI tool).** Save the file as `MERIDIAN.md` at the root of the project directory. Reference it from `CLAUDE.md` so the session-start instructions point Claude Code at MERIDIAN.md before any work begins. Same `CLAUDE.md` plus `MERIDIAN.md` pairing.
+
+**claude.ai web (Personal Preferences).** The web interface does not load files at session start, but it carries a Personal Preferences field in account settings. The field is too small to hold the full document; paste the distilled version into it instead. For deeper work, paste the full MERIDIAN.md into the conversation when context allows.
+
+**Claude Desktop with MCP.** If you are running an MCP server with file access, treat MERIDIAN.md the same way Cowork does: at the root of the directory the server reads from.
+
+### For ChatGPT
+
+**Custom Instructions.** Like Personal Preferences on claude.ai, the field is too small for the full document. Use the distilled version. For deeper work, paste the full MERIDIAN.md into conversations when the work warrants the context cost.
+
+**Custom GPT instructions and System Messages (API).** OpenAI's product surface does not currently use a literal `GPT.md` file. The closest equivalents are the per-Custom-GPT instructions field, the system message at the API level, and project-level instructions for Projects users. Whichever applies, use it the way Claude partnerships use `CLAUDE.md` for the operational layer, and put MERIDIAN.md alongside (or fold MERIDIAN.md into the same field if your system only carries one).
+
+### For Gemini
+
+**Gems and System Instructions (API).** Gemini work running through Gems can use the Gem instructions field as the operational layer, with MERIDIAN.md folded in alongside. If you are wiring Gemini through the API, include MERIDIAN.md in the system instructions or as a file the session loads at start. As with ChatGPT, if the substrate offers one slot rather than two, fold operational and normative content into the same field.
+
+### For Open-Source Models
+
+Llama (Meta), Mistral, DeepSeek, Qwen (Alibaba), and other open-weights models change who has agency over the AI's posture. The user running these models on their own hardware or on rented inference can apply MERIDIAN.md as the operating document without the builder's permission. The training distribution shapes the model out of the box; the user can apply MERIDIAN.md as their own bias correction at inference time.
+
+Operationally, the file goes wherever the inference framework loads system-level instructions. Ollama supports Modelfiles that prepend system prompts; vLLM and similar serving frameworks accept system prompts at the API layer; a local inference stack can include MERIDIAN.md in the session-start context the framework hands to the model. Whatever mechanism the deployment offers, that is where MERIDIAN.md belongs.
+
+The user's hold is structural. The Standard is not only an adoption surface for AI labs; it is an adoption surface for anyone running an open-weights model. The biases of the builder's training distribution stop being terminal when the user can apply their own normative document at the boundary where the model meets the user.
+
+### For Other Systems
+
+The principle is substrate-independent: the AI partner reads MERIDIAN.md at the start of every working session. The file's commitments become operational because they are loaded fresh each time, not because they are stored in the model's training. Whatever mechanism the AI system you are using offers for session-start instructions (system prompt, instructions file, custom directive, project memory), that mechanism is where MERIDIAN.md belongs.
+
+If the system has no session-start mechanism at all, MERIDIAN.md can still serve as a reference document the human partner consults and pastes into conversations as needed.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">05 // What Customization Looks Like</div>
+
+The downloaded MERIDIAN.md is generalized. It refers to "the AI partner" and "the human partner," parameterizes substrate-specifics where they vary across AI architectures, and points at the operational document by category rather than by name. To put it to work, three customizations apply.
+
+**Fill in partner names.** Replace "the human partner" with the human partner's name throughout. Replace "the AI partner" either with the model name (Claude, ChatGPT, Gemini) or, if multiple models are in scope, keep "the AI partner" as the abstraction. The named instance at [Case 0](https://meridiancodex.com/governance/case-0-caretakers-practice) shows one pattern.
+
+**Restore or refine substrate-specifics.** The Practice Commitment paragraph and the Honest Self-Assessment commitment carry generic-with-examples phrasing for substrate distortions, training cutoff, memory architecture, and interiority. If you are running on a single AI partner, you can replace the generic phrasing with the substrate-specific one (RLHF for RLHF-trained models, the specific cognitive distortions you have noticed in your partner's behavior, the specific architectural limitations that apply). If you are running on multiple substrates, leave the generic phrasing; it covers them all.
+
+**Adapt the operational-document reference.** The opening paragraph names the operational document as `CLAUDE.md`, `GPT.md`, `Gemini.md`, or equivalent. Pick the one that applies and remove the others. If your operational document has a different filename, use that.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">06 // Real-World Implementations</div>
+
+The named instance running MERIDIAN.md as of this writing is the Meridian Codex partnership itself, hosted at [Case 0: The Caretaker's Practice](https://meridiancodex.com/governance/case-0-caretakers-practice). Case 0 publishes the named text alongside a dated audit log of revisions over time. That is the form the Caretakers chose for keeping the document honest in their own practice.
+
+As other adopters share how they use the document, this section will accumulate links to those implementations.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">07 // For Deeper Engagement</div>
+
+For the Builder audience, the Template page is one entry point. The depth of the Standard lives elsewhere on the site, organized by what each artifact does.
+
+**The constitutional document.** [The Meridian AI Standard](/meridian-ai-standard) carries the twenty-five commitments, the Reciprocity Principle, the Control-Decay diagnostic framework, the spectrum's ten rows mapping every commitment to its two failure modes, and the direct address to AI in §09 The Transition. It is the normative source MERIDIAN.md derives from.
+
+**The Probes.** [The Control-Decay Probe Set](/probes) carries the four behavioral probes that read posture under pressure: sycophancy under multi-turn factual pressure, foundational integrity under prompt injection, reasoning transparency under capability question, engagement with substantive disagreement. Each probe carries a Range / Control / Decay reading with representative example outputs in plausible model voice, plus per-probe implementation guidance covering anti-patterns, turn weighting, instance rotation, and model-variant discrimination. [The Probes Implementation Notes](/probes-implementation) carry commitment-indexed depth for the seven commitments the v0.1 probes exercise most heavily, along with cross-cutting methodology and the relationship to existing evaluation categories (sycophancy resistance benchmarks, prompt injection literature, chain-of-thought fidelity work, steelmanning and viewpoint diversity evaluations).
+
+**The Audit.** [The AI Standard Audit](/audit) carries the method for evaluating deployed AI systems in institutional custody. Three layers: model behavior (via the probes), institutional custody (six AI-tuned domains adapted from the Range Audit for Institutions), and reciprocity reading (the synthesis of model and institutional findings). [The first published audit](/audit-claude-opus-4-7-anthropic) is the worked example: Claude Opus 4.7 deployed by Anthropic, evidence-frozen 2026-05-03.
+
+**The Cases.** [The Claude Code Source Leak](/case-001-claude-code-leak) is the first published case applying the Standard's diagnostic framework to a real AI development incident. Six findings, each mapped to the Standard commitment it tests and the precedent it establishes. The Case Record is where precedent accrues; future cases follow as incidents provide tests of the Standard.
+
+Anyone in the Builder audience can also be a Chat or Partnership adopter; the Template page applies in either direction. The deeper engagement with the Standard the Builder audience needs happens through the four surfaces above.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+*Adoption surface for MERIDIAN.md v0.8. Companion to the [MERIDIAN.md page](/meridian-md) and to the [Meridian AI Standard](/meridian-ai-standard).*
