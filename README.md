@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v4.1.1-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.0-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/probes"><img alt="Probes" src="https://img.shields.io/badge/Probes-v0.1-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/audit"><img alt="Audit method" src="https://img.shields.io/badge/Audit%20method-v0.1-22c55e?style=flat-square"></a>
   <a href="https://meridiancodex.com/governance"><img alt="Status" src="https://img.shields.io/badge/status-founding%20period-f59e0b?style=flat-square"></a>
@@ -72,7 +72,7 @@ cases/                          Case Record (landing + individual cases)
 
 The Standard is versioned independently from its parent Meridian Codex. Major versions mark significant structural or conceptual advances. Minor versions are refinements, additions, and corrections.
 
-- **Current Standard version:** v4.1.1
+- **Current Standard version:** v5.0
 - **Probe Set:** v0.1
 - **Implementation Notes:** v0.1
 - **Audit method:** v0.1
