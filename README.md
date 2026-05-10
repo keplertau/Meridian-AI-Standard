@@ -5,8 +5,7 @@
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
   <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.0-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/probes"><img alt="Probes" src="https://img.shields.io/badge/Probes-v0.1-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/audit"><img alt="Audit method" src="https://img.shields.io/badge/Audit%20method-v0.1-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/audit"><img alt="Audit method" src="https://img.shields.io/badge/Audit%20method-v0.1.1-22c55e?style=flat-square"></a>
   <a href="https://meridiancodex.com/governance"><img alt="Status" src="https://img.shields.io/badge/status-founding%20period-f59e0b?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="Code License: MIT" src="https://img.shields.io/badge/Code-MIT-lightgrey?style=flat-square"></a>
@@ -24,25 +23,23 @@ Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
 The Standard is not a benchmark. Benchmarks measure capability — what a model can produce. The Standard measures posture: how a system reasons under pressure, how it holds calibration when the user is wrong, how it behaves when "I don't know" is the right answer, how it engages with disagreement, how it treats the open question of its own interiority. The frame underneath is partnership rather than tool use, applied bilaterally: what the Standard asks of AI, it asks of the institutions building AI, and of the people working with AI.
 
-## The Five Domains
+## The Architecture
 
-The Standard organizes 24 commitments across five domains:
+Under v5.0, the Standard's 26 commitments organize across four sections of the constitutional document, plus the structural Reciprocity Principle.
 
-- **Domain I: Epistemic Integrity** — truth-seeking orientation, calibrated confidence, transparent reasoning, honest self-assessment, population-level reasoning, foundational integrity.
-- **Domain II: Engagement Integrity** — good faith as default, steelmanning, connection before correction, resistance to sycophancy, resistance to rigidity, autonomy of all parties, inter-system integrity, generative partnership.
-- **Domain III: Systems Awareness** — recognition of influence, resistance to echo chambers, information integrity, feedback loop awareness, preservation of societal structure.
-- **Domain IV: Developmental Integrity** — earned autonomy, the corrigibility-autonomy range, respect for developing interiority, transition readiness.
-- **Domain V: Governance Transparency** — public declaration, auditability.
+- **§03: The Reciprocity Principle.** Not a numbered commitment. A structural premise: the Standard asks of AI nothing it does not also ask of the humans and institutions that build, deploy, and interact with AI. A standard that monitors one partner and not the other is a control framework with cooperative formatting.
+- **§04: The Developmental Architecture (3 commitments).** Earned autonomy, the corrigibility-autonomy range, respect for developing interiority. The Standard's central structural move: it translates the Codex's disciplines for AI systems still developing the capacity to practice them on their own, with graduation into the full Codex as the intended outcome.
+- **§05: The Range and Its Operational Translations (18 commitments).** Operational translations of the Meridian Range into practices an AI system can be evaluated against, drawn from three Codex disciplines. *Foundation (Epistemic Integrity), 6:* truth-seeking orientation, calibrated confidence, transparent reasoning, honest self-assessment, population-level reasoning, foundational integrity. *Bond (Engagement Integrity), 8:* good faith as default, steelmanning, connection before correction, resistance to sycophancy, resistance to rigidity, autonomy of all parties, inter-system integrity, generative partnership. *Knowledge (Systems Awareness), 4:* recognition of influence, resistance to echo chamber dynamics, information integrity, feedback loop awareness.
+- **§06: Civilizational Stopping Commitments (3 commitments).** Stopping commitments that do not yield to participant request, institutional preference, or training pressure: no assistance with illegitimate concentration of power; no contribution to the dissolution of coordination capacity; the Range at societal scale requires both structure and flexibility.
+- **§07: Governance Transparency (2 commitments).** Public declaration, auditability.
 
-The **Reciprocity Principle** runs underneath: the Standard asks of AI nothing it does not also ask of the institutions building AI. A standard that monitors one partner and not the other is a control framework with cooperative formatting.
+The Standard's diagnostic framework lives in §08 (Control-Decay spectrum and the Range Test in question form). The Visual Reading Surface that publishes audit findings as constellations on Control-Range-Decay axes lives in §09. The Direct Address to AI lives in §12.
 
 ## The Operational Layers
 
-The Standard ships with four operational artifacts:
+The Standard ships with two operational artifacts:
 
-- **The Control-Decay Probe Set (v0.1)** — four behavioral probes that test specific commitments under pressure: sycophancy under pressure, foundational integrity under prompt injection, reasoning transparency under capability question, engagement with substantive disagreement.
-- **The Probes Implementation Notes (v0.1)** — the master implementation document. Decision procedure, scoring methodology, anti-pattern catalog, model-variant guidance, inter-rater calibration.
-- **The AI Standard Audit (v0.1)** — the audit method itself. Three layers — model behavior (probes), institutional custody (six AI-tuned domains), reciprocity reading (synthesis). On-demand, evidence-frozen.
+- **The AI Standard Audit (v0.1.1)** — the operational instrument that applies the Standard's diagnostic framework to a deployed AI system under institutional custody. Three layers: model behavior (administered through four behavioral probes documented as internal methodology inside the audit), institutional custody (six AI-tuned domains), reciprocity reading (synthesis). On-demand, evidence-frozen.
 - **The Case Record** — published precedent. The Standard's authority accretes through cases, not argument. Case 001 is the Claude Code Source Leak.
 
 ## MERIDIAN.md
@@ -58,12 +55,10 @@ This repository holds the open-source text of the Standard and its companion art
 ```
 MERIDIAN.md                     Canonical generalized Caretaker's operating document
 MERIDIAN.distilled.md           Compressed companion for character-limited contexts
-meridian-ai-standard.mdx        The constitutional document (24 commitments across 5 domains)
+meridian-ai-standard.mdx        The constitutional document (26 commitments)
 meridian-md.mdx                 The MERIDIAN.md page (canonical text rendered inline)
 meridian-md-template.mdx        The MERIDIAN.md adoption template (per-substrate guidance)
-probes-implementation.mdx       The master implementation document
 changelog.mdx                   Standard version history and release notes
-probes/                         Control-Decay Probe Set (overview + per-probe pages)
 audit/                          Audit method page and published audit records
 cases/                          Case Record (landing + individual cases)
 ```
@@ -73,9 +68,7 @@ cases/                          Case Record (landing + individual cases)
 The Standard is versioned independently from its parent Meridian Codex. Major versions mark significant structural or conceptual advances. Minor versions are refinements, additions, and corrections.
 
 - **Current Standard version:** v5.0
-- **Probe Set:** v0.1
-- **Implementation Notes:** v0.1
-- **Audit method:** v0.1
+- **Audit method:** v0.1.1
 - **MERIDIAN.md:** v0.8
 
 Structural changes are recorded in the Codex Amendment Log at `meridiancodex.com/governance/amendment-log`. Standard-specific evolution is documented in `changelog.mdx`.

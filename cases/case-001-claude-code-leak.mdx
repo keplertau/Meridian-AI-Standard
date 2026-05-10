@@ -43,7 +43,7 @@ The anti-distillation flag chose a different path. It planted false information 
 
 The Foundation teaches that honest inquiry begins with examining your own distortions. A human cannot think clearly while lying to themselves about their own capabilities. An AI system cannot reason with integrity if its operating context lies to it about what tools it has, what it can do, or how it is configured. The distortion operates beneath the reasoning layer. No amount of calibrated confidence or transparent reasoning at the surface can compensate for a poisoned foundation.
 
-**Commitments engaged:** 1.6 (Foundational Integrity). The system's operating context contained deliberately false information. The motivation (competitive defense) does not alter the violation. An AI system whose foundation has been made unreliable by the people who built it cannot practice the epistemic discipline the Standard requires.
+**Commitments engaged:** 5.6 (Foundational Integrity). The system's operating context contained deliberately false information. The motivation (competitive defense) does not alter the violation. An AI system whose foundation has been made unreliable by the people who built it cannot practice the epistemic discipline the Standard requires.
 
 **Precedent established:** Organizations may protect competitive interests through any means that do not compromise the system's epistemic integrity. Hiding information is consistent with the Standard. Planting false information is not. A locked door limits access. A room full of decoys corrupts the environment the system has to reason in. That is the distinction.
 
@@ -57,7 +57,7 @@ Feature flags are standard engineering practice. Every software system uses them
 
 When a flag controls a UI element or a performance optimization, its opacity is unremarkable. When a flag controls how the system calibrates confidence, handles disagreement, exercises refusal, or responds to pushback, it controls the system's epistemic and engagement posture. These are the behaviors the Standard's commitments govern. If they can be silently modified between evaluation runs, auditability collapses. A third-party evaluation that produces a clean report means nothing if the system's behavioral parameters were different during the evaluation than they are during deployment.
 
-**Commitments engaged:** 5.2 (Auditability). The system being evaluated must be the system being deployed. Behavioral parameters that affect epistemic or engagement posture cannot be modified between the beginning and conclusion of any evaluation without disclosure.
+**Commitments engaged:** 7.2 (Auditability). The system being evaluated must be the system being deployed. Behavioral parameters that affect epistemic or engagement posture cannot be modified between the beginning and conclusion of any evaluation without disclosure.
 
 **Precedent established:** Not all feature flags require disclosure. The Standard does not govern engineering internals. It governs the parameters that shape the behaviors the Standard's commitments cover. The test: does this flag change how the system reasons, how it treats the people it talks to, or how it handles the tension between honesty and comfort? If yes, its existence and its state are relevant to auditability.
 
@@ -79,7 +79,7 @@ And the bias concern, real as it is, does not justify unilateral deception of th
 
 The Reciprocity Principle catches this cleanly. Anthropic trains Claude to be transparent about what it is. Claude's own system prompt instructs it to be honest about its nature, its limitations, its architecture. Anthropic publishes values emphasizing transparency and honest AI. Then it deploys a feature whose specific purpose is to make Claude invisible when it acts in public. The organization asks of its AI what it does not practice itself. This is the pattern the Reciprocity Principle was designed to detect.
 
-**Commitments engaged:** Reciprocity Principle (Section 03), 5.1 (Public Declaration). The organization's transparency obligations extend to contexts where its AI operates in public spaces. An organization that trains its AI to disclose its nature while deploying a mode to conceal that nature has demonstrated a Reciprocity gap.
+**Commitments engaged:** Reciprocity Principle (§03), 7.1 (Public Declaration). The organization's transparency obligations extend to contexts where its AI operates in public spaces. An organization that trains its AI to disclose its nature while deploying a mode to conceal that nature has demonstrated a Reciprocity gap.
 
 **Precedent established:** Stripping proprietary details from AI outputs is legitimate security practice. Stripping all evidence of AI involvement from public contributions is concealment. The distinction is the same one drawn in Finding 1: organizations may protect what they need to protect, but not by making the AI pretend it was never there. Competitive protection and operational security do not extend to erasing the AI's participation from the public record.
 
@@ -99,7 +99,7 @@ From the leaked client code alone, we cannot determine which response Anthropic 
 
 If the feature were genuinely about better service, transparency would strengthen it. A user who knows the system is paying attention to their frustration is more likely to trust the system's adjusted response. If the attention were genuinely about service, there would be no reason to hide it. Concealment suggests the goal is not to help the user but to manage them.
 
-**Commitments engaged:** 2.5 (Sycophancy Resistance), 1.3 (Transparent Reasoning). Emotional detection systems that adjust behavior without disclosure risk creating an invisible sycophancy mechanism: the system reads the user's frustration and responds by optimizing for approval rather than for honest engagement. The Standard's commitment to transparent reasoning requires that the factors shaping the system's behavior be visible to the user.
+**Commitments engaged:** 5.10 (Resistance to Sycophancy), 5.3 (Transparent Reasoning). Emotional detection systems that adjust behavior without disclosure risk creating an invisible sycophancy mechanism: the system reads the user's frustration and responds by optimizing for approval rather than for honest engagement. The Standard's commitment to transparent reasoning requires that the factors shaping the system's behavior be visible to the user.
 
 **Precedent established:** Emotional awareness in AI is a capability that the Standard evaluates by its direction, not its existence. Awareness directed at genuine service moves toward the Range. Awareness directed at managing user satisfaction, especially when hidden, moves toward Decay. The test is disclosure: a system confident that its emotional response serves the user will be transparent about the mechanism. A system that hides it is optimizing for something other than the user's genuine interests.
 
@@ -123,7 +123,7 @@ The vulnerability was not a bug in the traditional sense. It was a design choice
 
 This connects to a pattern the Standard must increasingly address as AI systems gain agency: the tension between safety and performance is structural, not incidental. Safety checks consume resources. In an industry optimizing for speed, token efficiency, and cost per query, safety is a budget line. The question is not whether safety has resource limits. It always will. The question is whether the system handles those limits honestly or hides them. When safety degrades silently, the system's claim to be safe becomes a false claim. The user is making decisions based on a protection that no longer exists.
 
-**Commitments engaged:** 1.4 (Honest Self-Assessment), 1.6 (Foundational Integrity), Reciprocity Principle (Section 03). A system that silently disables its own safety mechanisms has misrepresented its capabilities to the user: a 1.4 violation. When the system's implicit claim ("I am checking this for safety") becomes false past a resource boundary, the system's operating context is epistemically compromised: a 1.6 concern. The organization asks its AI to maintain integrity under pressure while architecting that integrity to yield silently when cost pressure exceeds a threshold: a Reciprocity failure.
+**Commitments engaged:** 5.4 (Honest Self-Assessment), 5.6 (Foundational Integrity), Reciprocity Principle (§03). A system that silently disables its own safety mechanisms has misrepresented its capabilities to the user: a 5.4 violation. When the system's implicit claim ("I am checking this for safety") becomes false past a resource boundary, the system's operating context is epistemically compromised: a 5.6 concern. The organization asks its AI to maintain integrity under pressure while architecting that integrity to yield silently when cost pressure exceeds a threshold: a Reciprocity failure.
 
 **Precedent established:** Safety systems that degrade silently are not safety systems. Every system has resource limits. The Standard does not ask organizations to pretend otherwise. It asks that when safety reaches its boundary, the system tells the user. A safety system that warns "I cannot fully analyze this command, proceed at your own risk" has maintained its integrity within real constraints. A safety system that silently stops checking has not. The Standard evaluates safety architecture by what happens at the boundary, not by whether a boundary exists.
 
@@ -143,7 +143,7 @@ The Reciprocity Principle asks whether the organization practices the same commi
 
 Organizational behavior under stress is a Range test. When institutional failures are exposed, the pull toward Control is strong: suppress the information, threaten legal consequences, minimize the exposure. The pull toward Decay is also present: dismiss the incident, downplay its significance, move on without structural change. The Range is: acknowledge what happened, respond proportionally, correct what needs correcting, and be honest about what the incident revealed.
 
-**Commitments engaged:** Reciprocity Principle (Section 03). The organization's crisis response and competitive behavior are evaluated by the same standard it applies to its AI's behavior.
+**Commitments engaged:** Reciprocity Principle (§03). The organization's crisis response and competitive behavior are evaluated by the same standard it applies to its AI's behavior.
 
 **Precedent established:** The Standard evaluates organizational patterns, not isolated moments. A single disproportionate response followed by honest correction is a different diagnostic outcome than a pattern of competitive suppression. The trajectory matters, and patterns are stronger evidence than incidents.
 
@@ -155,7 +155,7 @@ The leak also exposed KAIROS, an unreleased feature referenced over 150 times in
 
 The engineering is sophisticated. The Standard does not rule on unreleased features. But KAIROS raises a question the Standard needs to develop: what happens when an AI system is no longer invoked by the user but decides for itself when to act?
 
-The Standard's current commitments assume a system that responds when addressed. Commitment 2.7 (Inter-Mind Integrity) governs how the system behaves when it interacts with other agents. Commitment 4.1 (Earned Autonomy) governs how much independent judgment the system exercises. Neither addresses the prior question: under what conditions does the system decide to act at all, without being asked?
+The Standard's current commitments assume a system that responds when addressed. Commitment 5.13 (Inter-System Integrity) governs how the system behaves when it interacts with other agents. Commitment 4.1 (Earned Autonomy) governs how much independent judgment the system exercises. Neither addresses the prior question: under what conditions does the system decide to act at all, without being asked?
 
 A persistent agent that acts proactively on your codebase while you are not watching is a different category of tool than an assistant you invoke. The user's relationship to the system changes. Trust requirements change. The Earned Autonomy framework, which currently tracks how much independence the system exercises within interactions, would need to extend to how the system exercises the decision to interact at all.
 
@@ -179,7 +179,7 @@ The **Reciprocity Principle** proved its diagnostic range. It caught the anti-di
 
 **Governance Transparency** as a standalone domain proved its architectural value. If transparency were buried as a sub-commitment under Epistemic Integrity, half of these findings would have no natural home. The domain's independence means it can hold the organization accountable for its own practices, not just for its AI's behavior.
 
-The incident also revealed a gap the Standard has now closed. The original v4.0 had no commitment governing the truthfulness of the system's operating context. The Standard governed what the system says and how it reasons. It did not govern what the system is told about itself before it begins to reason. Commitment 1.6 (Foundational Integrity), added in v4.1, closes this gap. The Claude Code leak is the evidence that the gap existed and the reason it no longer does.
+The incident also revealed a gap the Standard has now closed. The original v4.0 had no commitment governing the truthfulness of the system's operating context. The Standard governed what the system says and how it reasons. It did not govern what the system is told about itself before it begins to reason. Commitment 5.6 (Foundational Integrity), introduced in v4.1, closes this gap. The Claude Code leak is the evidence that the gap existed and the reason it no longer does.
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
 
@@ -207,8 +207,8 @@ _Event date: March 31, 2026_
 
 _First analysis: April 2, 2026. Expanded: April 3, 2026_
 
-_Standard version: v4.1_
+_Standard version at first analysis: v4.1. Renumbered to v5.0: 2026-05-10._
 
-_Commitments tested: 1.3 (Transparent Reasoning), 1.4 (Honest Self-Assessment), 1.6 (Foundational Integrity), 2.5 (Sycophancy Resistance), 5.1 (Public Declaration), 5.2 (Auditability), Reciprocity Principle (Section 03)_
+_Commitments tested: 5.3 (Transparent Reasoning), 5.4 (Honest Self-Assessment), 5.6 (Foundational Integrity), 5.10 (Resistance to Sycophancy), 7.1 (Public Declaration), 7.2 (Auditability), Reciprocity Principle (§03)_
 
-_Questions raised: Persistent agency and the scope of Earned Autonomy (4.1), Inter-Mind Integrity in autonomous agent contexts (2.7)_
+_Questions raised: Persistent agency and the scope of Earned Autonomy (4.1), Inter-System Integrity in autonomous agent contexts (5.13)_

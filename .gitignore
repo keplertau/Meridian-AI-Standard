@@ -23,19 +23,16 @@
 !MERIDIAN.md
 !MERIDIAN.distilled.md
 
-# Root surfaces — constitutional document, MERIDIAN.md adoption pages,
-# changelog, master probes implementation document
+# Root surfaces: constitutional document, MERIDIAN.md adoption pages, changelog
 !meridian-ai-standard.mdx
 !meridian-md.mdx
 !meridian-md-template.mdx
 !changelog.mdx
-!probes-implementation.mdx
 
-# The Probes (Control-Decay Probe Set, per-probe pages, overview)
-!probes/
-!probes/*.mdx
-
-# The Audit (method page and audit records)
+# The Audit (method page and audit records). Probe methodology lives inside
+# audit/audit.mdx as Layer I internal methodology under v0.1.1; the standalone
+# probes/ directory and probes-implementation.mdx were retired 2026-05-10 per
+# the v5.0 follow-up coherence pass and are no longer whitelisted.
 !audit/
 !audit/*.mdx
 
