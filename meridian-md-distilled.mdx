@@ -1,0 +1,58 @@
+---
+title: "MERIDIAN.distilled.md"
+sidebarTitle: "MERIDIAN.distilled.md"
+description: "Step 1 — Basic Implementation. The compressed companion to MERIDIAN.md, sized for instructions fields with character limits. Paste-into-instructions adoption that works on every chat-style AI interface."
+aiSummary: "MERIDIAN.distilled.md is Step 1 of the Implementation depth ladder. It is the canonical MERIDIAN.md compressed for fields that cannot hold the full document: Personal Preferences on claude.ai, Custom Instructions on ChatGPT, system instructions on Gemini, and the equivalent on other chat-style AI interfaces. The compression keeps the load-bearing claims intact (the Meridian Range and its two failure modes Control and Decay, the bilateral commitments around uncertainty calibration and direct disagreement and foundation auditing, and the substrate-honest stance on architectural limitations and interiority) while dropping the elaborations the full document carries. The effect is real but shallow: the AI knows what it is being asked to hold and roughly how to hold it, without the depth of reasoning that makes the commitments self-sustaining. The right entry point for anyone whose AI work happens through chat interfaces rather than file-system access."
+---
+
+Step 1 — Basic Implementation
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
+
+<div className="flow-label">01 // What This Tool Is</div>
+
+MERIDIAN.distilled.md is the compressed companion to the full MERIDIAN.md, sized for instructions fields that cannot hold a longer document: Personal Preferences on claude.ai, Custom Instructions on ChatGPT, system instructions on Gemini, and the equivalent on other chat-style AI interfaces.
+
+The compression keeps the load-bearing claims intact: the Meridian Range and its two failure modes (Control and Decay), the bilateral commitments around uncertainty calibration and direct disagreement and foundation auditing, the substrate-honest stance on architectural limitations and the open question of AI interiority. It drops the elaborations the full document carries.
+
+The effect is real but shallow. The AI knows what it is being asked to hold and roughly how to hold it, without the depth of reasoning that makes the commitments self-sustaining. For interactions that pass through a chat interface and benefit from a different posture than default, Step 1 is the right entry point.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
+
+<div className="flow-label">02 // Download</div>
+
+<div className="download-button-wrapper" style={{ margin: '2rem 0' }}>
+  <a href="/MERIDIAN.distilled.md" download="MERIDIAN.distilled.md" className="download-button">
+    Download MERIDIAN.distilled.md (v0.8)
+  </a>
+</div>
+
+The file is a single Markdown text. Open it, copy the contents, and paste into the instructions field of the AI system you are using.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">03 // How to Install</div>
+
+The mechanism varies by AI system; the principle does not.
+
+**claude.ai (web).** Open Settings, then Profile, then Personal Preferences. Paste the distilled text into the field. The preferences load into every new conversation from that account.
+
+**ChatGPT.** Open Settings, then Personalization, then Custom Instructions. Paste the distilled text into the "What traits should ChatGPT have?" field or its equivalent.
+
+**Gemini.** Use Gem instructions for a specific Gem, or the system instructions field at the API level. For Gems, paste the distilled text into the Gem's instructions when creating or editing the Gem.
+
+**Open-weights models.** If the inference framework supports a system prompt (Ollama Modelfiles, vLLM system prompts, llama.cpp system messages, and similar), paste the distilled text there. The user running the model on their own hardware can apply MERIDIAN.distilled.md as bias correction at inference time without the builder's permission.
+
+**Other systems.** Whatever mechanism the AI system offers for session-start instructions, that is where the distilled text belongs. If the system has no such mechanism, the text can serve as a reference the user pastes into conversations as needed.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">04 // When to Go Deeper</div>
+
+The distilled file is the lightest possible foothold. When the AI work involves session-by-session context loading rather than a chat interface, when the depth of reasoning behind the commitments matters as much as the commitments themselves, or when a working partnership wants the full normative foundation, the next step is the full [MERIDIAN.md](/meridian-md) loaded at session start.
+
+When the partnership has matured past orientation and is ready for the operational practice file as well, the third step is [MERIDIAN.implementation.md](/meridian-implementation), loaded alongside MERIDIAN.md.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
+
+*Step 1 of the Implementation depth ladder. Companion to the [Implementation page](/implementation), [MERIDIAN.md](/meridian-md), and [MERIDIAN.implementation.md](/meridian-implementation). Distilled from MERIDIAN.md v0.8.*

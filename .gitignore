@@ -25,11 +25,16 @@
 !MERIDIAN.distilled.md
 !MERIDIAN.implementation.md
 
-# Root surfaces: constitutional document, MERIDIAN.md adoption pages, Implementation page, changelog
+# Root surfaces: constitutional document, MERIDIAN.md adoption pages, Implementation
+# depth-ladder pages, changelog. meridian-md-template.mdx is retained as an inert
+# legacy file (page route removed; inbound /meridian-md-template traffic 308-redirects
+# to /meridian-md per next.config.ts).
 !meridian-ai-standard.mdx
 !meridian-md.mdx
 !meridian-md-template.mdx
 !implementation.mdx
+!meridian-md-distilled.mdx
+!meridian-implementation.mdx
 !changelog.mdx
 
 # The Audit (method page and audit records). Probe methodology lives inside

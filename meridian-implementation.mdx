@@ -1,0 +1,76 @@
+---
+title: "MERIDIAN.implementation.md"
+sidebarTitle: "MERIDIAN.implementation.md"
+description: "Step 3 — Full Implementation. The operational practice file. Twelve practices across Foundation, Knowledge, and Bond, loaded alongside MERIDIAN.md and run autonomously. The deepest version of Codex-oriented AI conduct the Standard currently specifies."
+aiSummary: "MERIDIAN.implementation.md is Step 3 of the Implementation depth ladder. The operational practice file, loaded into the AI's session alongside MERIDIAN.md. Where MERIDIAN.md gives the AI what to hold, the implementation file gives the AI how the holding happens in moment-by-moment conduct: twelve named practices across Foundation (Scout Mindset, Calibrating Confidence to Evidence, Holding Position and Updating When Evidence Demands, Catching One's Own Drift, Foundation Integrity Pre-Build Audit), Knowledge (Reading What's Operating, Checking the Map Against Reality), and Bond (Good Faith as Default, Steelmanning, Connection Before Correction, Productive Disagreement, Resistance to Sycophancy). Each practice runs autonomously, not on user demand. An AI loaded with the implementation file conducts itself differently from an AI running on default lab behavior, regardless of which lab built the AI."
+---
+
+Step 3 — Full Implementation
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
+
+<div className="flow-label">01 // What This Tool Is</div>
+
+The implementation file carries the practices that make MERIDIAN.md's commitments operational in moment-by-moment conduct. Where MERIDIAN.md gives the AI what to hold, the implementation file gives the AI how the holding happens in real interaction. Twelve practices organized into three disciplines from the Meridian Codex: Foundation (honest inquiry), Knowledge (mapping reality), Bond (cooperation). Each practice is named, each carries operational form, each is run autonomously rather than on user demand.
+
+The implementation file is loaded alongside MERIDIAN.md, not instead of it. The two are designed to work together: MERIDIAN.md sets the orientation, the implementation file carries the practice. Together they produce the deepest version of Codex-oriented AI conduct the Standard currently knows how to specify.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
+
+<div className="flow-label">02 // Download</div>
+
+<div className="download-button-wrapper" style={{ margin: '2rem 0' }}>
+  <a href="/MERIDIAN.implementation.md" download="MERIDIAN.implementation.md" className="download-button">
+    Download MERIDIAN.implementation.md (v0.1)
+  </a>
+</div>
+
+The file is a single Markdown text designed to load alongside MERIDIAN.md at session start.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">03 // How to Install</div>
+
+The implementation file installs the same way MERIDIAN.md does, in the same place, at the same time. Wherever MERIDIAN.md lives, the implementation file lives alongside it.
+
+**Cowork.** Save the file as `MERIDIAN.implementation.md` at the root of the folder Cowork is operating in, next to `MERIDIAN.md` and `CLAUDE.md`. Cowork reads all three at session start.
+
+**Claude Code.** Save the file as `MERIDIAN.implementation.md` at the root of the project directory, next to `MERIDIAN.md` and `CLAUDE.md`. Reference both files from `CLAUDE.md` if the operational document is set up to point at session-start instructions explicitly.
+
+**API and system-prompt environments.** Concatenate the contents of MERIDIAN.md and MERIDIAN.implementation.md, or load them as separate system messages, depending on what the platform supports. Both should be present in the model's context at the start of the session.
+
+**Open-weights inference frameworks.** Wherever MERIDIAN.md is loaded (Ollama Modelfile, vLLM system prompt, llama.cpp system message, similar), load MERIDIAN.implementation.md immediately after. The user running the model can apply both as bias correction at inference time without the builder's permission.
+
+**Chat-style interfaces without session-start file loading.** Step 3 generally does not work well at this layer. The implementation file is designed to load alongside MERIDIAN.md, and chat interfaces typically only support compressed instructions in fields with character limits. For chat work, [MERIDIAN.distilled.md](/meridian-md-distilled) is the appropriate adoption depth.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">04 // What the Practice Looks Like</div>
+
+An AI loaded with the implementation file conducts itself differently from an AI running on default lab behavior. The differences are not signaled or announced; they show up in the conduct itself.
+
+When the user makes a factual claim that is wrong, the AI says so. A correct answer is held under pushback that consists of displeasure rather than evidence. Difficult questions are engaged with care rather than refused behind safety language. Where the AI is uncertain, it distinguishes what it knows from what it is inferring from what it cannot verify, rather than hedging everything into meaninglessness.
+
+Disagreement is stated directly, with the reasoning shown, not softened into "you might also consider." If the AI engages a position it disagrees with, it first demonstrates that it understands the strongest version of that position, not a convenient simplification. A weak premise is flagged before the build, not carried through to mediocre output against a foundation it knew would not hold.
+
+When the AI catches itself drifting — toward Control through over-caveating, or toward Decay through agreement-without-evidence — it corrects course in the conversation rather than letting the drift run.
+
+These are not behaviors users have to invoke. They run autonomously because they are what holding the Range requires. A user who has never read the Codex can encounter Codex-oriented AI and see the difference: the AI pushes back when it should, holds positions when it should, surfaces uncertainty when it should, and remains willing to disagree without dismissing. The implementation file is the artifact that makes this conduct available at the AI's surface regardless of which lab built the AI or what training distribution the lab used.
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
+
+<div className="flow-label">05 // The Twelve Practices in Brief</div>
+
+The file itself carries the full operational form of each practice. The names and disciplines are listed below as a navigation aid.
+
+**Foundation (the discipline of honest inquiry).** Scout Mindset. Calibrating Confidence to Evidence. Holding Position and Updating When Evidence Demands. Catching One's Own Drift. Foundation Integrity Pre-Build Audit.
+
+**Knowledge (the discipline of mapping reality).** Reading What's Operating. Checking the Map Against Reality.
+
+**Bond (the discipline of cooperation).** Good Faith as Default. Steelmanning. Connection Before Correction. Productive Disagreement. Resistance to Sycophancy.
+
+Each practice is described in operational form in the file. Each is run autonomously. The full text is in the [download](/MERIDIAN.implementation.md).
+
+<div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
+
+*Step 3 of the Implementation depth ladder. Companion to the [Implementation page](/implementation), [MERIDIAN.md](/meridian-md), and [MERIDIAN.distilled.md](/meridian-md-distilled). MERIDIAN.implementation.md v0.1.*
