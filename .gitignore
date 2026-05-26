@@ -20,13 +20,16 @@
 !LICENSE
 
 # The canonical generalized MERIDIAN.md (single source of truth) plus the distilled companion
+# and the operational practice file (the third tool of the Implementation depth ladder).
 !MERIDIAN.md
 !MERIDIAN.distilled.md
+!MERIDIAN.implementation.md
 
-# Root surfaces: constitutional document, MERIDIAN.md adoption pages, changelog
+# Root surfaces: constitutional document, MERIDIAN.md adoption pages, Implementation page, changelog
 !meridian-ai-standard.mdx
 !meridian-md.mdx
 !meridian-md-template.mdx
+!implementation.mdx
 !changelog.mdx
 
 # The Audit (method page and audit records). Probe methodology lives inside
