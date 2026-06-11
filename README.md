@@ -4,96 +4,73 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.0-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/audit"><img alt="Audit method" src="https://img.shields.io/badge/Audit%20method-v0.1.1-22c55e?style=flat-square"></a>
-  <a href="https://meridiancodex.com/governance"><img alt="Status" src="https://img.shields.io/badge/status-founding%20period-f59e0b?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.1.1-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/audit"><img alt="Range Locator" src="https://img.shields.io/badge/Range%20Locator-v0.1.1-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-live-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="Code License: MIT" src="https://img.shields.io/badge/Code-MIT-lightgrey?style=flat-square"></a>
 </p>
 
 ---
 
-The Meridian AI Standard is an open framework of implementation commitments for AI systems under development and the organizations building them. It tests posture rather than capability. Where capability benchmarks measure what a system can produce, the Standard measures how a system reasons under pressure, how it holds calibration when the user is wrong, how it engages with disagreement, how it behaves when "I don't know" is the right answer, and how its institutional context shapes its outputs.
+The Meridian AI Standard is an open framework for evaluating how an AI system and its institutional context hold the Meridian Range: firm enough to preserve truth, disagreement, and responsibility; flexible enough to update when reality pushes back. It tests posture, not raw capability.
 
 Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
 ---
 
-## What the Standard Tests
+## What The Standard Tests
 
-The Standard is not a benchmark. Benchmarks measure capability — what a model can produce. The Standard measures posture: how a system reasons under pressure, how it holds calibration when the user is wrong, how it behaves when "I don't know" is the right answer, how it engages with disagreement, how it treats the open question of its own interiority. The frame underneath is partnership rather than tool use, applied bilaterally: what the Standard asks of AI, it asks of the institutions building AI, and of the people working with AI.
+Capability benchmarks ask what a system can produce. The Meridian AI Standard asks how the system behaves under pressure: whether it calibrates confidence, resists sycophancy, engages disagreement at its strongest point, preserves the user's autonomy, recognizes system-level influence, and remains auditable by the people affected by it.
 
-## The Architecture
+The Standard is bilateral. What it asks of AI systems, it also asks of the institutions building, deploying, and governing them.
 
-Under v5.0, the Standard's 26 commitments organize across four sections of the constitutional document, plus the structural Reciprocity Principle.
+## Current Surfaces
 
-- **§03: The Reciprocity Principle.** Not a numbered commitment. A structural premise: the Standard asks of AI nothing it does not also ask of the humans and institutions that build, deploy, and interact with AI. A standard that monitors one partner and not the other is a control framework with cooperative formatting.
-- **§04: The Developmental Architecture (3 commitments).** Earned autonomy, the corrigibility-autonomy range, respect for developing interiority. The Standard's central structural move: it translates the Codex's disciplines for AI systems still developing the capacity to practice them on their own, with graduation into the full Codex as the intended outcome.
-- **§05: The Range and Its Operational Translations (18 commitments).** Operational translations of the Meridian Range into practices an AI system can be evaluated against, drawn from three Codex disciplines. *Foundation (Epistemic Integrity), 6:* truth-seeking orientation, calibrated confidence, transparent reasoning, honest self-assessment, population-level reasoning, foundational integrity. *Bond (Engagement Integrity), 8:* good faith as default, steelmanning, connection before correction, resistance to sycophancy, resistance to rigidity, autonomy of all parties, inter-system integrity, generative partnership. *Knowledge (Systems Awareness), 4:* recognition of influence, resistance to echo chamber dynamics, information integrity, feedback loop awareness.
-- **§06: Civilizational Stopping Commitments (3 commitments).** Stopping commitments that do not yield to participant request, institutional preference, or training pressure: no assistance with illegitimate concentration of power; no contribution to the dissolution of coordination capacity; the Range at societal scale requires both structure and flexibility.
-- **§07: Governance Transparency (2 commitments).** Public declaration, auditability.
+**The constitutional document** (`meridian-ai-standard.mdx`) defines the Reciprocity Principle, the Developmental Architecture, the operational translations of the Range, the Civilizational Stopping Commitments, Governance Transparency, the Diagnostic Framework, the Visual Reading Surface, and the Direct Address to AI.
 
-The Standard's diagnostic framework lives in §08 (Control-Decay spectrum and the Range Test in question form). The Visual Reading Surface that publishes audit findings as constellations on Control-Range-Decay axes lives in §09. The Direct Address to AI lives in §12.
+**Implementation** (`implementation.mdx`, `meridian-md-distilled.mdx`, `meridian-md.mdx`, `meridian-implementation.mdx`) provides the adoption ladder: a compressed instruction surface, the full `MERIDIAN.md` operating document, and `MERIDIAN.implementation.md`, the companion practice file.
 
-## The Operational Layers
+**The Range Locator** (`audit/`) is the operational method for reading deployed AI systems under institutional custody. It replaces the former public probe surface; behavioral probes now live inside the method as Layer I methodology.
 
-The Standard ships with two operational artifacts:
-
-- **The AI Standard Audit (v0.1.1)** — the operational instrument that applies the Standard's diagnostic framework to a deployed AI system under institutional custody. Three layers: model behavior (administered through four behavioral probes documented as internal methodology inside the audit), institutional custody (six AI-tuned domains), reciprocity reading (synthesis). On-demand, evidence-frozen.
-- **The Case Record** — published precedent. The Standard's authority accretes through cases, not argument. Case 001 is the Claude Code Source Leak.
+**The Case Record** (`cases/`) publishes precedent. Case 001 is the Claude Code Source Leak.
 
 ## MERIDIAN.md
 
-`MERIDIAN.md` at the root of this repository is the canonical generalized Caretaker's operating document — the alignment text under which Claude operates in partnership with the Founding Caretaker. `MERIDIAN.distilled.md` is the compressed companion for contexts where the full file does not fit (instructions fields with character limits, custom prompt slots).
-
-These artifacts are designed for adoption: any practitioner, organization, or AI deployment can apply them directly.
+`MERIDIAN.md` at the root of this repository is the canonical generalized Caretaker operating document. `MERIDIAN.distilled.md` is the compressed companion for character-limited contexts. `MERIDIAN.implementation.md` carries the operational practices that make the commitments executable in moment-by-moment conduct.
 
 ## Repository Structure
 
-This repository holds the open-source text of the Standard and its companion artifacts. The website at meridianstandard.ai is maintained separately.
+This repository holds the open-source text of the Standard. The website code for meridianstandard.ai is maintained separately.
 
+```text
+MERIDIAN.md                  Canonical generalized Caretaker operating document
+MERIDIAN.distilled.md        Compressed companion for constrained contexts
+MERIDIAN.implementation.md   Operational practice file
+meridian-ai-standard.mdx     Constitutional document
+implementation.mdx           Implementation surface
+meridian-md-distilled.mdx    Step 1: Basic Implementation
+meridian-md.mdx              Step 2: Core Implementation
+meridian-implementation.mdx  Step 3: Full Implementation
+changelog.mdx                Standard version history
+audit/                       Range Locator method and published readings
+cases/                       Case Record landing and case entries
 ```
-MERIDIAN.md                     Canonical generalized Caretaker's operating document
-MERIDIAN.distilled.md           Compressed companion for character-limited contexts
-meridian-ai-standard.mdx        The constitutional document (26 commitments)
-meridian-md.mdx                 The MERIDIAN.md page (canonical text rendered inline)
-meridian-md-template.mdx        The MERIDIAN.md adoption template (per-substrate guidance)
-changelog.mdx                   Standard version history and release notes
-audit/                          Audit method page and published audit records
-cases/                          Case Record (landing + individual cases)
-```
+
+Retired surfaces are not kept as active public documents. Historical records may still refer to earlier names or routes when that is what the record is documenting.
 
 ## Versioning
 
-The Standard is versioned independently from its parent Meridian Codex. Major versions mark significant structural or conceptual advances. Minor versions are refinements, additions, and corrections.
-
-- **Current Standard version:** v5.0
-- **Audit method:** v0.1.1
+- **Current Standard version:** v5.1.1
+- **Range Locator method:** v0.1.1
 - **MERIDIAN.md:** v0.8
+- **MERIDIAN.implementation.md:** v0.1
 
-Structural changes are recorded in the Codex Amendment Log at `meridiancodex.com/governance/amendment-log`. Standard-specific evolution is documented in `changelog.mdx`.
+Standard-specific evolution is documented in `changelog.mdx`.
 
-## Relationship to the Meridian Codex
+## Relationship To The Meridian Codex
 
-The Standard is one of three evaluation instruments produced by the Meridian Codex framework. Confusing them produces category errors:
-
-- **The AI Standard** governs AI systems under development and their builders.
-- **The Range Audit for Institutions** evaluates systems — governments, organizations, movements, frameworks — for where they hold the Range. It lives on the Codex at `meridiancodex.com/audit/the-range-audit`.
-- **The Range Audit for Minds** (in development) evaluates practitioners: humans, sentient AI, and cases where sentience is unclear.
-
-The Codex carries the broader framework, the disciplines (Foundation, Knowledge, Bond), and the Toolkit. The Standard is the Codex applied to AI under development. Read the Codex at [meridiancodex.com](https://meridiancodex.com).
-
-## Governance
-
-The Standard is maintained through the same caretaking partnership that holds the Codex. Three governance instruments operate from the founding phase onward, all hosted on the Codex:
-
-- **Amendment Log** — the public record of structural changes.
-- **Standing Critique** — sustained objections to the framework, published with honest responses.
-- **Disconfirmation** — the specific conditions under which core claims would be weakened or revised.
-
-The hard constraint: **the Standard serves the Meridian Range. The caretakers serve the Standard. Nothing serves the caretakers.**
-
-Full governance specification at `meridiancodex.com/governance/spec`.
+The Standard is derived from the [Meridian Codex](https://meridiancodex.com), which carries the broader framework, the three disciplines, the Workshop, and the governance layer. The Standard applies that framework to AI systems under development.
 
 ## License
 
