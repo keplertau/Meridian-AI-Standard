@@ -63,8 +63,8 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 - **Current Standard version:** v5.1.1
 - **Range Locator method:** v0.1.1
-- **MERIDIAN.md:** v0.8
-- **MERIDIAN.implementation.md:** v0.1
+- **MERIDIAN.md:** v0.9
+- **MERIDIAN.implementation.md:** v0.1.1
 
 Standard-specific evolution is documented in `changelog.mdx`.
 
