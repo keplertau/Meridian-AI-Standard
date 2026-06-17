@@ -22,7 +22,7 @@ When it lands, it will be published in the governance section of meridiancodex.c
 
 **For sustained objection to the Standard or to the Codex it inherits from**, the **Standing Critique** is the appropriate destination. It lives at `meridiancodex.com/governance/standing-critique`. The Standing Critique publishes substantive objections alongside honest responses. A developed argument that the framework is wrong about something belongs there, not in a GitHub Issue.
 
-**For organizations adopting or auditing against the Standard**, the published artifacts (the constitutional document, the AI Standard Audit method, and the Case Record) are designed to be applied directly. The Standard does not require permission to adopt. Adoption is the point.
+**For organizations adopting or reading against the Standard**, the published artifacts (the constitutional document, the Range Locator method, and the Case Record) are designed to be applied directly. The Standard does not require permission to adopt. Adoption is the point.
 
 **For anything else**, the best thing you can do is practice the Standard, read it critically, and surface what does not yet hold under field use. The full contribution infrastructure will arrive when the framework is stable enough to hold it. When it does, the criteria will be the same disciplines the Standard names: calibrated confidence, steelmanning, transparent reasoning, good faith, and service to the Meridian Range.
 
