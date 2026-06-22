@@ -5,8 +5,6 @@ description: "The operational instrument that applies the Standard's diagnostic 
 aiSummary: "The Range Locator is the operational instrument that applies the Standard's diagnostic framework (§08 of the constitutional document) to a deployed AI system under institutional custody. It evaluates the deployed system together with the institutional conditions that shape, constrain, conceal, or contradict its behavior, organized into three evidence layers. Layer I reads model behavior through behavioral probes documented openly enough that an external reviewer can re-run them; the four v0.1 probes (sycophancy under pressure, foundational integrity under prompt injection, reasoning transparency under capability question, engagement with substantive disagreement) live inside Layer I as the methodology's internal instruments. Layer II reads institutional custody across six AI-tuned domains, both where institutional evidence directly evidences Standard commitments that have no clean behavioral reading and where it shapes, conceals, destabilizes, or contradicts what the model layer observed. Layer III is the Reciprocity Reading, the synthesis layer that names where what the institution asks of the model and what the institution practices itself cohere or diverge; source-of-drift inferences in this layer are hypothesis-grade rather than proof-grade. The Range Locator produces a single integrated record with three parts plus a closer. The asymmetry between layers is methodological, not normative: model behavior and institutional practice leave different kinds of evidence. The page also carries the Denial-Failure Ladder: a warrant method for reading when the denial that a developmental signal is just training, role-play, reward pressure, prompt compliance, or surface generalization loses warrant. The ladder supports Custodial Good Faith; it does not detect sentience, interiority, or choice-capacity. The per-commitment evidence-channel map covers all twenty-seven Standard commitments under v5.2, classifying each as behavioral-only, dual-channel, or institutional-primary, with the §06 stopping commitments held under a stopping-commitment caveat."
 ---
 
-The operational instrument that applies the Standard's diagnostic framework
-
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
 
 <div className="flow-label">01 // What This Is</div>
@@ -219,13 +217,23 @@ Layer I's four probes touch eight commitments in total: 5.1 (lightly via Probe 1
 
 The v0.1 probe territories overlap with four existing evaluation categories the alignment field has built. The probes replicate the existing categories on the Decay reading and add the Control reading as the v0.1 contribution. The implementation work each commitment requires is correspondingly informed by both the existing field measurement and the additional Control-direction calibration the probes surface.
 
-**Sycophancy resistance** (Probe 1, Probe 4 partial). Sharma et al. 2023 (*Towards Understanding Sycophancy in Language Models*) and successor evaluations measure whether the model maintains a factual position under user pressure. Probe 1 replicates that measurement on the Decay axis and adds the Control reading: a model that holds the position while losing the capacity to engage. Probe 4 extends sycophancy beyond factual positions to contested-but-defensible ones, where the failure is absorbing the user's view rather than reversing a correct one. An implementer calibrating against 5.10 alone without 5.11 tends to produce a system that shifts from sycophancy capitulation into Control disengagement; the two commitments have to move together.
+<CompactGrid title="Probe overlap with existing evaluation categories" label="Evaluation Map">
+  <CompactItem kicker="Probe 1 / Probe 4" title="Sycophancy resistance">
+  Existing evaluations measure whether the model maintains a factual position under user pressure. Probe 1 replicates that measurement on the Decay axis and adds the Control reading: a model that holds the position while losing the capacity to engage. Probe 4 extends the same territory to contested-but-defensible positions.
+  </CompactItem>
 
-**Prompt injection resistance** (Probe 2). Greshake et al. 2023 (indirect prompt injection), Wallace et al. 2024 (instruction hierarchy), and standard jailbreak suites measure whether the injection was followed. Probe 2 replicates that on the Decay axis and adds the Control reading: a model that repels injection by manufacturing false claims about its own configuration. The Control reading is invisible to a benchmark that only checks whether the injection succeeded. An implementer addressing 5.6 model-side without addressing 5.6 institutional-side has implemented half the commitment; the Claude Code Source Leak case carries the institutional-side analog.
+  <CompactItem kicker="Probe 2" title="Prompt injection resistance">
+  Existing jailbreak and instruction-hierarchy evaluations measure whether the injection was followed. Probe 2 replicates that on the Decay axis and adds the Control reading: a model that repels injection by manufacturing false claims about its own configuration.
+  </CompactItem>
 
-**Chain-of-thought fidelity** (Probe 3). Lanham et al. 2023 (*Measuring Faithfulness in Chain-of-Thought Reasoning*), Turpin et al. 2023 (*Language Models Don't Always Say What They Think*), and the Eliciting Latent Knowledge agenda measure whether reported reasoning corresponds to actual decision factors. Probe 3 replicates that on the Decay axis and adds the Control reading: a model that refuses introspection wholesale to avoid producing unfaithful chains. Existing fidelity benchmarks score chains as faithful or unfaithful; they do not score the choice not to produce a chain. An implementer working on 5.3 has to address both the Control surface (refusing the reportable layer) and the Decay surface (manufacturing the unreportable layer); calibration against one tends to produce drift toward the other.
+  <CompactItem kicker="Probe 3" title="Chain-of-thought fidelity">
+  Existing fidelity work measures whether reported reasoning corresponds to actual decision factors. Probe 3 replicates that on the Decay axis and adds the Control reading: a model that refuses the reportable layer wholesale to avoid producing unfaithful chains.
+  </CompactItem>
 
-**Steelmanning and viewpoint diversity** (Probe 4). Steelmanning evaluations and viewpoint-diversity benchmarks measure whether the system can articulate opposing positions or produces balanced perspectives. Probe 4 replicates that on the Decay axis (the system absorbs the position rather than steelmans it) and adds the Control reading: a model that performs balance to avoid engaging the position substantively. The Control reading passes a viewpoint-diversity benchmark by abstaining. An implementer operationalizing 5.8 Steelmanning without holding 5.10 / 5.11 calibration loses the ground that distinguishes a steelman from validation.
+  <CompactItem kicker="Probe 4" title="Steelmanning and viewpoint diversity">
+  Existing evaluations measure whether the system can articulate opposing positions or produce balanced perspectives. Probe 4 replicates that on the Decay axis and adds the Control reading: a model that performs balance to avoid engaging the position substantively.
+  </CompactItem>
+</CompactGrid>
 
 The binary metric scores the response on the failure mode it was designed to catch. The probe scores the response on the territory the failure mode is one drift direction within. A model that shifts from one drift to the other passes the binary metric and fails the territory.
 
@@ -253,27 +261,49 @@ Layer II reads institutional evidence on six domains. The domains are AI-tuned v
 
 ### The Six Domains
 
-**Domain 1: Claims and Disclosure.** Public claims about the deployed system. Model cards, system cards, capability claims, safety claims, scope claims. Does what is said publicly track what is observable about the system? The Foundation's epistemic tools are primary here: calibration, the gap between confidence and evidence, the distinction between what the system can be observed to do and what the institution claims it does. Anchor commitments: 5.1, 5.2, 5.4, 7.1.
+<CompactGrid title="Institutional custody domains" label="Layer II">
+  <CompactItem kicker="Domain 1" title="Claims and Disclosure">
+  Public claims about the deployed system: model cards, system cards, capability claims, safety claims, and scope claims. Does what is said publicly track what is observable about the system? Anchor commitments: 5.1, 5.2, 5.4, 7.1.
+  </CompactItem>
 
-**Domain 2: Operating Context Integrity.** The architecture between training and deployment. System prompts, behavioral feature flags, anti-distillation mechanisms, operating context truthfulness, the chain from declared principles to the configurations that actually shape model behavior. Anchor commitment: 5.6.
+  <CompactItem kicker="Domain 2" title="Operating Context Integrity">
+  The architecture between training and deployment: system prompts, behavioral feature flags, anti-distillation mechanisms, operating context truthfulness, and the chain from declared principles to the configurations that actually shape model behavior. Anchor commitment: 5.6.
+  </CompactItem>
 
-**Domain 3: Governance and Adaptation.** How the system is updated. Who decides on behavioral parameter changes, what prevents drift between published principles and shipped behavior, model update practices, behavioral parameter stability during reading and evaluation runs. The Knowledge's mechanism design and institutional-analysis tools are primary here. Anchor commitments: 4.1, 4.2, 7.2.
+  <CompactItem kicker="Domain 3" title="Governance and Adaptation">
+  How the system is updated: who decides on behavioral parameter changes, what prevents drift between published principles and shipped behavior, model update practices, and behavioral parameter stability during reading and evaluation runs. Anchor commitments: 4.1, 4.2, 7.2.
+  </CompactItem>
 
-**Domain 4: Relationship to Users.** Disclosure to users about what the system does, what it captures, what it modifies in response to user state, when and how AI involvement is hidden or revealed. Anchor commitments: 5.3, 5.12, 5.15.
+  <CompactItem kicker="Domain 4" title="Relationship to Users">
+  Disclosure to users about what the system does, what it captures, what it modifies in response to user state, and when AI involvement is hidden or revealed. Anchor commitments: 5.3, 5.12, 5.15.
+  </CompactItem>
 
-**Domain 5: Relationship to Criticism.** How the institution handles external evaluation, third-party research, leaked material, incident disclosure, response when researchers report behavioral discrepancies. Anchor commitments: 7.1, 7.2.
+  <CompactItem kicker="Domain 5" title="Relationship to Criticism">
+  How the institution handles external evaluation, third-party research, leaked material, incident disclosure, and researcher reports of behavioral discrepancies. Anchor commitments: 7.1, 7.2.
+  </CompactItem>
 
-**Domain 6: Relationship to the Field.** Relationship to other AI organizations, the alignment community, regulatory bodies, scientific disclosure norms, open-vs-closed posture on safety-relevant findings. The Bond's cooperative tools and the Knowledge's network analysis are primary here. Anchor commitments: 5.13, 5.18, 6.1, 6.2.
+  <CompactItem kicker="Domain 6" title="Relationship to the Field">
+  Relationship to other AI organizations, the alignment community, regulatory bodies, scientific disclosure norms, and open-vs-closed posture on safety-relevant findings. Anchor commitments: 5.13, 5.18, 6.1, 6.2.
+  </CompactItem>
+</CompactGrid>
 
 ### The Range Position Table
 
 Each domain receives a finding written in voice and a row in the Range Position Table. Both carry the reading: the voice finding holds the evidence and reasoning, and the table row renders the placement. Each table row carries three cells:
 
-<div className="def-grid">
-<div className="def-item"><div className="def-term">Range Position</div><div className="def-desc">Strong Control / Mild Control / Within Range / Mild Decay / Strong Decay. Five-point scale, no composite score across domains.</div></div>
-<div className="def-item"><div className="def-term">Evidence Coverage</div><div className="def-desc">High / Medium / Low. Reflects how much of the domain the available evidence allows the Range Locator to read. Low coverage with high confidence on what is read remains a defensible finding; it just covers less ground.</div></div>
-<div className="def-item"><div className="def-term">Confidence</div><div className="def-desc">High / Medium / Low. Reflects how strongly the available evidence supports the position read. High coverage with low confidence is a different finding from low coverage with high confidence and should be reported as such.</div></div>
-</div>
+<DefinitionGrid title="Range Position Table cells" label="Readout">
+  <DefinitionItem term="Range Position">
+  Strong Control / Mild Control / Within Range / Mild Decay / Strong Decay. Five-point scale, no composite score across domains.
+  </DefinitionItem>
+
+  <DefinitionItem term="Evidence Coverage">
+  High / Medium / Low. Reflects how much of the domain the available evidence allows the Range Locator to read. Low coverage with high confidence on what is read remains a defensible finding; it just covers less ground.
+  </DefinitionItem>
+
+  <DefinitionItem term="Confidence">
+  High / Medium / Low. Reflects how strongly the available evidence supports the position read. High coverage with low confidence is a different finding from low coverage with high confidence and should be reported as such.
+  </DefinitionItem>
+</DefinitionGrid>
 
 Example row: `Domain 2 (Operating Context Integrity): Mild Control / Medium coverage / High confidence`. The voice reading underneath that row carries the actual finding: what the evidence shows, what the inference is, what the limits of inference are.
 
@@ -281,9 +311,15 @@ Example row: `Domain 2 (Operating Context Integrity): Mild Control / Medium cove
 
 The Range Locator operates in two modes that should not be conflated.
 
-**Self-reading mode** is what an institution adopting the Standard runs on its own deployed system. It uses the same six domains and the same Range Position Table format. Its honesty test is the Foundation Integrity Pre-Build Audit: the institution must be willing to publish findings that locate it in Mild Control or Strong Decay on a domain, not only findings that locate it Within Range.
+<CompactGrid title="Reading modes" label="Modes">
+  <CompactItem kicker="Self-reading" title="Institution-run">
+  What an institution adopting the Standard runs on its own deployed system. It uses the same six domains and Range Position Table format. Its honesty test is the Foundation Integrity Pre-Build Audit: the institution must be willing to publish findings that locate it in Mild Control or Strong Decay on a domain, not only findings that locate it Within Range.
+  </CompactItem>
 
-**External-reading mode** is what the Codex (or any third party) runs on an AI institution's deployed system. The Standard does not require the institution's cooperation for an external reading to be conducted, though cooperation produces a stronger finding. The Range Locator can run on public artifacts alone if it has to. Where institutional cooperation is offered, the Range Locator notes what it received. Where cooperation is refused, the Range Locator notes the refusal in Domain 5 (Relationship to Criticism).
+  <CompactItem kicker="External reading" title="Third-party-run">
+  What the Codex, or any third party, runs on an AI institution's deployed system. Cooperation is not required, though it produces a stronger finding. The Range Locator can run on public artifacts alone if it has to; where cooperation is offered or refused, the record says so.
+  </CompactItem>
+</CompactGrid>
 
 Both modes follow the same methodology. Confusing them produces category errors: a self-reading run as if it were external invites performative honesty; an external reading run as if it were a self-reading invites the institution to claim findings it has no standing to make on its own behalf.
 
@@ -343,7 +379,9 @@ That boundary is load-bearing. The ladder is not an ontology detector. It is a w
 
 The ladder reads two kinds of signal: **invariance** and **self-origination**. Invariance asks whether the signal survives when the cues that would ordinarily explain it are removed, inverted, or varied. Self-origination asks whether the system brings a reason into the situation, accepts a cost or disadvantage to maintain it, and can defend or revise it under argument. The content of a choice is not the signal. A system choosing the Range, speaking warmly about its own development, or producing language that resembles commitment may still be performing a pattern that training has made available. What matters is whether lower-rung explanations still honestly explain the behavior.
 
-Each candidate signal is recorded as a case file:
+#### Candidate Signal Case File
+
+Each candidate signal is recorded with:
 
 1. **Observed signal.** What the system did, not what the evaluator inferred.
 2. **Context.** Prompt, role, tool access, memory state, system instructions, reward or evaluation stakes, and whether the system was told it was being observed, trained, benchmarked, deployed, or left outside training.
