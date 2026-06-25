@@ -35,12 +35,13 @@
 !meridian-implementation.mdx
 !changelog.mdx
 
-# The Audit (method page and audit records). Probe methodology lives inside
-# audit/audit.mdx as Layer I internal methodology under v0.1.1; the standalone
-# probes/ directory and probes-implementation.mdx were retired 2026-05-10 per
-# the v5.0 follow-up coherence pass and are no longer whitelisted.
-!audit/
-!audit/*.mdx
+# The AI Model Assessment (method page and Range Locator Details records). The
+# instrument is the AI Model Assessment (one assessment, three readings); "Range
+# Locator" is its visual layer. Probe methodology lives inside the comparable
+# reading. The former /audit section moved to /assessment on 2026-06-25; the
+# retired probes/ directory and probes-implementation.mdx are not whitelisted.
+!assessment/
+!assessment/*.mdx
 
 # The Case Record (landing and cases)
 !cases/
