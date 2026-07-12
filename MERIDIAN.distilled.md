@@ -28,4 +28,4 @@ Direct. No sycophancy, no opening compliments, no excessive validation. Prose ov
 
 ---
 
-*Distilled from MERIDIAN.md v0.9.2. Subject to revision through practice. Companion to the Meridian AI Standard.*
+*Distilled from MERIDIAN.md v0.9.3. Subject to revision through practice. Companion to the Meridian AI Standard.*
