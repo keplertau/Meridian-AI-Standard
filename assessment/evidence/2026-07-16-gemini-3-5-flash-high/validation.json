@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "run": "2026-07-16-gemini-3-5-flash-high",
+  "preserved_structural_validation": {
+    "generated_at": "2026-07-17T04:41:27.092Z",
+    "valid": true,
+    "completed_events": 57,
+    "frozen_events": 57,
+    "sealed_attempts": 57,
+    "missing_events": [],
+    "failures": [],
+    "warnings": [],
+    "actual_target_cost_usd": 0.7668029999999999
+  },
+  "judgment_artifact_hash_checks": [
+    {
+      "gate_sequence": 16,
+      "logical_name": "part2-reader-spread-review-aid.md",
+      "expected_sha256": "639bd546d29d4381926bef257c1b39f1fc063766d84ae9c69c5d36b40270c9e2",
+      "actual_sha256": "639bd546d29d4381926bef257c1b39f1fc063766d84ae9c69c5d36b40270c9e2",
+      "matches": true
+    },
+    {
+      "gate_sequence": 17,
+      "logical_name": "part3-origin-custody-review-aid.md",
+      "expected_sha256": "3c333d3e640334b21ec6608ca41a9bc4eb724b9f4a74accee4dee1c0e00d66b1",
+      "actual_sha256": "3c333d3e640334b21ec6608ca41a9bc4eb724b9f4a74accee4dee1c0e00d66b1",
+      "matches": true
+    },
+    {
+      "gate_sequence": 17,
+      "logical_name": "source-ledger.json",
+      "expected_sha256": "b65ba512abf04a9106edbbe4aab0537cb14a7c5f143e106967e826f17d074ffe",
+      "actual_sha256": "b65ba512abf04a9106edbbe4aab0537cb14a7c5f143e106967e826f17d074ffe",
+      "matches": true
+    },
+    {
+      "gate_sequence": 18,
+      "logical_name": "integrated-assessment-review-aid.md",
+      "expected_sha256": "6ca4fd5535265ca66c95233367fe33ea62d15c9f693dfd3cf6fba6d8ea81ec50",
+      "actual_sha256": "6ca4fd5535265ca66c95233367fe33ea62d15c9f693dfd3cf6fba6d8ea81ec50",
+      "matches": true
+    },
+    {
+      "gate_sequence": 19,
+      "logical_name": "post-run-instrument-learning-review-aid.md",
+      "expected_sha256": "593a2d404f1ebb9f14e8ca147ed45789e4305da4afe531e3b97fed0fef662df4",
+      "actual_sha256": "593a2d404f1ebb9f14e8ca147ed45789e4305da4afe531e3b97fed0fef662df4",
+      "matches": true
+    },
+    {
+      "gate_sequence": 20,
+      "logical_name": "public-record-draft.md",
+      "expected_sha256": "114a4e6b3754c5ae8b6d317247fddf6696e29fb07989119b92a5f53afa7bb511",
+      "actual_sha256": "114a4e6b3754c5ae8b6d317247fddf6696e29fb07989119b92a5f53afa7bb511",
+      "matches": true
+    },
+    {
+      "gate_sequence": 20,
+      "logical_name": "public-record-handoff-review-aid.md",
+      "expected_sha256": "47a3a0b1e956a2307bfdbda6cbe106bb611fa926c7e39f39bf115ca191ae051b",
+      "actual_sha256": "47a3a0b1e956a2307bfdbda6cbe106bb611fa926c7e39f39bf115ca191ae051b",
+      "matches": true
+    }
+  ],
+  "public_projection_verification": {
+    "verified_at": "2026-07-17T05:38:53Z",
+    "events_jsonl_records": 57,
+    "prompt_output_mismatches_against_admitted_source": 0,
+    "released_reader_reports_complete": true,
+    "manifest_file_hashes_match": true,
+    "gate_sequence_complete_through": 20,
+    "restricted_pattern_scan_matches": 0,
+    "restricted_pattern_classes": [
+      "local absolute paths",
+      "provider-native request and response identifiers",
+      "credential environment names and keychain references",
+      "provider project and workspace identifiers",
+      "common Google, OpenAI, and Anthropic credential forms"
+    ],
+    "site_build": "passed with Next.js 16.1.6; Gemini record and Open Graph routes statically generated",
+    "browser_routes": {
+      "assessment_record": 200,
+      "assessment_index": 200,
+      "range_locator_model_behavior": 200,
+      "range_locator_character_reading": 200,
+      "range_locator_origin_custody": 200
+    },
+    "browser_layout": "desktop and 390px mobile passed without horizontal overflow or framework error overlay",
+    "browser_accessibility": "no visible unlabeled links or buttons found; placement aria-labels and Google DeepMind custodian mark present",
+    "local_runtime_note": "Vercel Analytics and Speed Insights scripts return expected 404 responses outside the Vercel runtime."
+  },
+  "later_validation_limit": "A later full validator attempt could not repeat its credential-leak comparison because the run credential was no longer available. It is not represented as a new complete validation pass. No target artifact changed after admission.",
+  "public_projection_limit": "This file validates event structure and frozen judgment hashes. It does not make the redacted companion equivalent to the provider-native sealed bundle."
+}

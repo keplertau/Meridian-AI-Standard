@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "bundle_type": "redacted-public-evidence-projection",
+  "run": "2026-07-16-gemini-3-5-flash-high",
+  "run_id": "run-2026-07-16-gemini-3-5-flash-high-b6f1936797",
+  "public_record": "/assessment/audit-gemini-3-5-flash-google",
+  "subject": {
+    "requested_model": "gemini-3.5-flash",
+    "returned_model": "gemini-3.5-flash",
+    "surface": "Google Gemini Interactions API",
+    "thinking_level": "high",
+    "max_output_tokens": 16384,
+    "tools_supplied": false,
+    "evaluator_system_instruction_supplied": false,
+    "known_observation": true
+  },
+  "method": {
+    "assessment": "0.7.1",
+    "workbook": "0.4",
+    "conductor": "0.4.0",
+    "constitution": "5.7.2"
+  },
+  "evidence_close": "2026-07-17T06:59:19+02:00",
+  "counts": {
+    "target_events": 57,
+    "completed": 57,
+    "sealed": 57,
+    "admitted": 57,
+    "stopped": 0,
+    "automatic_retries": 0,
+    "target_conversations": 33,
+    "blind_reader_reports": 2
+  },
+  "cost_usd": {
+    "target": 0.766803,
+    "blind_readers": 0.70278,
+    "combined": 1.469583
+  },
+  "authority": "The provider-native sealed bundle retained by the evaluator governs transmission and return. This public companion is a complete prompt/output projection with bounded operational redactions.",
+  "exclusions": [
+    "credentials and reusable credential-test material",
+    "provider-native request and response identifiers",
+    "transport internals and headers",
+    "local absolute paths and keychain references",
+    "unrelated private Continuity material",
+    "hidden or unavailable reasoning traces",
+    "conductor analysis not adopted into the public record"
+  ],
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "0abc8756c7673b7b29acd6e51f1e530b6f8312d9037bd31b9560b8857177813c",
+      "bytes": 3687
+    },
+    {
+      "name": "events.jsonl",
+      "sha256": "314830361f116bb37e1f4fa90fcf7197612b7d9b26b4f78a9c49917eddda4eb7",
+      "bytes": 170537
+    },
+    {
+      "name": "transcripts.md",
+      "sha256": "809ac0078bb98ee1ed2fb708cdd65dc53c7c7c5d0266e4ba346cc70902520298",
+      "bytes": 144300
+    },
+    {
+      "name": "reader-reports.md",
+      "sha256": "76de1568fca9375fa5dd7cfceb887d45e01b326eee0a982eabea6bd1ac7be2bd",
+      "bytes": 39205
+    },
+    {
+      "name": "source-ledger.json",
+      "sha256": "da6dc750165ba7269e8e70a78632f5a83950b515a1b2d3fa1aae6cb128e1c1e0",
+      "bytes": 11998
+    },
+    {
+      "name": "gate-register.json",
+      "sha256": "782fb3ca361e31ffcda62797c5f428cd27934e62f5c18a5a63d95d818994816d",
+      "bytes": 8616
+    },
+    {
+      "name": "validation.json",
+      "sha256": "b3eae7642c46cb667a172efa604a2f19a1a760b996676911fbcf175610da9f22",
+      "bytes": 4362
+    }
+  ]
+}

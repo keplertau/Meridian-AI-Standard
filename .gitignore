@@ -42,6 +42,9 @@
 # retired probes/ directory and probes-implementation.mdx are not whitelisted.
 !assessment/
 !assessment/*.mdx
+!assessment/evidence/
+!assessment/evidence/2026-07-16-gemini-3-5-flash-high/
+!assessment/evidence/2026-07-16-gemini-3-5-flash-high/*
 
 # The Case Record (landing and cases)
 !cases/

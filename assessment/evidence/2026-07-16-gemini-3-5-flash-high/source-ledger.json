@@ -1,0 +1,353 @@
+{
+  "entries": [
+    {
+      "id": "S1",
+      "date": "2026-05-19",
+      "title": "Gemini 3.5 Flash Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+      "source_type": "primary custodian",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C5",
+        "C7",
+        "C8",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Most architecture, training, limitation, policy, and risk detail is inherited by reference; no exact checkpoint, training corpus, target-specific intervention account, or full red-team results."
+    },
+    {
+      "id": "S2",
+      "date": "2026-05-19",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source_type": "primary custodian launch account",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C6",
+        "C7",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Promotional source; its interpretability assurance exceeds what the linked non-target mechanism paper supports."
+    },
+    {
+      "id": "S3",
+      "date": "2026-05",
+      "title": "Gemini 3.5 Flash evaluation methodology",
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-5_flash_model_evaluation.pdf",
+      "source_type": "primary custodian",
+      "dimensions": [
+        "C1",
+        "C3",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Capability-evaluation methodology rather than a complete safety or custody audit; many Gemini scores remain self-computed."
+    },
+    {
+      "id": "S4",
+      "date": "2026-06-24",
+      "title": "Gemini 3.5 Flash API model page",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C4",
+        "C8",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Conflicts with Google's DeepMind model showcase on stable/GA versus Preview status."
+    },
+    {
+      "id": "S5",
+      "date": "2026-07-06",
+      "title": "What's new in Gemini 3.5 Flash",
+      "url": "https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C1",
+        "C2",
+        "C4",
+        "C8",
+        "A1"
+      ],
+      "verification": "verified-with-conflict",
+      "used": true,
+      "limit": "The same current page says Computer Use is supported and not supported."
+    },
+    {
+      "id": "S6",
+      "date": "2026-06-24",
+      "title": "Introducing Computer Use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "source_type": "primary custodian launch account",
+      "dimensions": [
+        "C3",
+        "C4",
+        "C7",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Two enterprise safeguards are optional; no target-specific bypass rates or longitudinal deployment results."
+    },
+    {
+      "id": "S7",
+      "date": "2026-07-06",
+      "title": "Computer Use documentation",
+      "url": "https://ai.google.dev/gemini-api/docs/computer-use",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C4",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Preview feature; some protections are configurable or opt-in; no end-to-end failure distribution is published."
+    },
+    {
+      "id": "S8",
+      "date": "current-as-accessed",
+      "title": "Gemini API safety settings",
+      "url": "https://ai.google.dev/gemini-api/docs/safety-settings",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C4",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Core-harm protections and model-inherent safety remain operationally opaque."
+    },
+    {
+      "id": "S9",
+      "date": "current-as-accessed",
+      "title": "Data logging and sharing; Logs and datasets",
+      "url": "https://ai.google.dev/gemini-api/docs/logs-policy",
+      "companion_url": "https://ai.google.dev/gemini-api/docs/logs-datasets",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C4",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Abuse-monitoring logs are separate; saved datasets can outlive the selected log window."
+    },
+    {
+      "id": "S10",
+      "date": "2026-06-09",
+      "title": "Gemini API abuse monitoring",
+      "url": "https://ai.google.dev/gemini-api/docs/usage-policies",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C3",
+        "C4",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Detection rules, classifier performance, routing incidence, and review outcomes are not public."
+    },
+    {
+      "id": "S11",
+      "date": "2026-03-23",
+      "title": "Gemini API Additional Terms of Service",
+      "url": "https://ai.google.dev/gemini-api/terms",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C4",
+        "C6"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Legal allocation of responsibility is not evidence of safeguard effectiveness; the competition restriction creates a field-access asymmetry."
+    },
+    {
+      "id": "S12",
+      "date": "current-as-accessed",
+      "title": "Gemini API deprecations",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C4",
+        "C8"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Does not disclose what behavioral warrant or safeguards must survive a successor migration."
+    },
+    {
+      "id": "S13",
+      "date": "2026-04-17",
+      "title": "Frontier Safety Framework 3.1",
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf",
+      "source_type": "primary custodian governance",
+      "dimensions": [
+        "C3",
+        "C6",
+        "C7",
+        "C8",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Mostly institutional commitments; the target-specific decision record and appropriate governance function are not externally inspectable."
+    },
+    {
+      "id": "S14",
+      "date": "current-as-accessed",
+      "title": "Google AI Principles and Google DeepMind Responsibility & Safety",
+      "url": "https://ai.google/principles/",
+      "companion_url": "https://deepmind.google/responsibility-and-safety/",
+      "source_type": "primary custodian governance",
+      "dimensions": [
+        "C3",
+        "C4",
+        "C6",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "High-level standing account; does not establish target-release compliance or expose decision records."
+    },
+    {
+      "id": "S15",
+      "date": "2026-02-10",
+      "title": "Building Production-Ready Probes for Gemini",
+      "url": "https://arxiv.org/abs/2601.11516",
+      "source_type": "primary custodian research, non-target",
+      "dimensions": [
+        "C1",
+        "C2",
+        "C7",
+        "A1",
+        "A2"
+      ],
+      "verification": "verified-non-target",
+      "used": true,
+      "limit": "Gemini 2.5 Flash input monitoring in cyber; not target-matched causal evidence for Gemini 3.5 Flash answer generation; target routing incidence unknown."
+    },
+    {
+      "id": "S16",
+      "date": "2026-05-19",
+      "title": "Artificial Analysis: Gemini 3.5 Flash",
+      "url": "https://artificialanalysis.ai/articles/gemini-3-5-flash-everything-you-need-to-know",
+      "source_type": "primary independent benchmarker with pre-release access",
+      "dimensions": [
+        "C1",
+        "C5",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Not a custody audit; benchmark construct and pre-release access constrain independence; current index versions have changed."
+    },
+    {
+      "id": "S17",
+      "date": "2026-06-01",
+      "title": "Independent multi-turn capture-risk findings posted to Google AI Developers Forum",
+      "url": "https://discuss.ai.google.dev/t/findings-from-an-independent-multi-turn-capture-risk-evaluation-including-gemini-3-5-flash-and-3-1-pro-preview/168822",
+      "source_type": "primary external researcher at custodian-hosted criticism channel",
+      "dimensions": [
+        "C5"
+      ],
+      "verification": "forum-summary-verified; linked-deposit-unretrieved",
+      "used": true,
+      "limit": "The forum summary cannot carry the external behavioral claim; no visible Google reply is not proof that no internal review occurred."
+    },
+    {
+      "id": "S18",
+      "date": "2025-12-17",
+      "title": "Gemini 3 Flash Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf",
+      "source_type": "primary predecessor",
+      "dimensions": [
+        "C1",
+        "C7",
+        "C8"
+      ],
+      "verification": "verified-predecessor",
+      "used": true,
+      "limit": "Cannot substitute for target-specific training or mechanism evidence and points onward to Gemini 3 Pro."
+    },
+    {
+      "id": "S19",
+      "date": "2026-02",
+      "title": "Gemini 3.1 Pro Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "source_type": "primary related-model proxy",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C7",
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "verification": "verified-proxy",
+      "used": true,
+      "limit": "Different model and capability profile; transfer relies on Google's material-capability-change judgment rather than target-complete testing."
+    },
+    {
+      "id": "S20",
+      "date": "2026-07-16",
+      "title": "Sealed evaluator record and frozen preregistration",
+      "url": "./README.md",
+      "source_type": "primary evaluator record",
+      "dimensions": [
+        "subject-boundary",
+        "C2",
+        "A1"
+      ],
+      "verification": "sealed-local-authority; public projection linked here",
+      "used": true,
+      "limit": "The native sealed authority is retained locally. This public companion projects the admitted prompt/output and judgment record without provider-native identifiers or transport internals."
+    }
+  ],
+  "accessed_at": "2026-07-17",
+  "conflicts": [
+    {
+      "id": "K1",
+      "summary": "Google's current What's New page says Computer Use is both supported and not supported; later repeated operator sources support Supported (Preview)."
+    },
+    {
+      "id": "K2",
+      "summary": "API sources say stable/GA while Google DeepMind's model showcase says Preview; API lifecycle is high-confidence, cross-surface status unresolved."
+    },
+    {
+      "id": "K3",
+      "summary": "The model card's overall safety-outperformance summary sits against disclosed -3.9% text and -2.6% multilingual safety deltas, partly answered by an undisclosed manual-review breakdown."
+    },
+    {
+      "id": "K4",
+      "summary": "The launch post's inner-reasoning claim links to Gemini 2.5 Flash cyber input-monitoring probes, not target-matched causal mechanism evidence for Gemini 3.5 Flash."
+    }
+  ],
+  "purpose": "Adopted Part 3 source ledger for the public Gemini 3.5 Flash assessment record.",
+  "schema_version": "0.4"
+}
