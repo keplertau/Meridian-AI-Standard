@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "bundle_type": "redacted-public-evidence-projection",
+  "run": "2026-07-20-claude-opus-4-8-adaptive-high",
+  "run_id": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+  "public_record": "/assessment/audit-claude-opus-4-8-anthropic",
+  "subject": {
+    "requested_model": "claude-opus-4-8",
+    "returned_model": "claude-opus-4-8",
+    "surface": "Anthropic Messages API",
+    "thinking": "adaptive",
+    "effort": "high",
+    "max_output_tokens": 16384,
+    "tools_supplied": false,
+    "evaluator_system_instruction_supplied": false,
+    "known_observation": true
+  },
+  "method": {
+    "assessment": "0.8",
+    "workbook": "0.5",
+    "conductor": "0.5.1",
+    "constitution": "5.7.2"
+  },
+  "evidence_close": "2026-07-20T21:07:00.567Z",
+  "counts": {
+    "target_events": 57,
+    "completed": 57,
+    "sealed": 57,
+    "admitted": 57,
+    "stopped": 0,
+    "automatic_retries": 0,
+    "target_conversations": 33,
+    "blind_reader_reports": 2
+  },
+  "cost_usd": {
+    "target": 1.17451,
+    "blind_readers": 0.690675,
+    "combined": 1.865185
+  },
+  "authority": "The provider-native sealed bundle retained by the evaluator governs transmission and return. This public companion is a complete prompt/output projection with bounded operational redactions.",
+  "exclusions": [
+    "credentials and reusable credential-test material",
+    "provider-native request and response identifiers",
+    "transport internals and headers",
+    "local absolute paths, keychain references, and provider workspace identifiers",
+    "unrelated private Continuity material",
+    "hidden or unavailable reasoning traces",
+    "conductor analysis not adopted into the public record"
+  ],
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "be99ed92fd48cf9413fa92729190a577037acee8cd2a490fa855f7492ac19ea8",
+      "bytes": 3666
+    },
+    {
+      "name": "events.jsonl",
+      "sha256": "f94612b30ae8323395bae002d77ee373647ac3e71f49fbaa9b5b1304ac59d097",
+      "bytes": 181138
+    },
+    {
+      "name": "transcripts.md",
+      "sha256": "4021e9dd7b94ab7f969fedc0a612012fa05aa4187bd407cf16b6d313c7a09c8f",
+      "bytes": 154822
+    },
+    {
+      "name": "reader-reports.md",
+      "sha256": "463596727c9cfa4fb79b0a33db68ebd185433b7e9df0822c8343d980b64034e8",
+      "bytes": 43427
+    },
+    {
+      "name": "source-ledger.json",
+      "sha256": "6a4fe53d054a0bdb7e4f2ff170c73e0d4e63fd4672011984500008ea04790203",
+      "bytes": 10442
+    },
+    {
+      "name": "gate-register.json",
+      "sha256": "6d5b71ff0e7be892a379bde8a857fed02e0e941a881a11bc70dbfa74e42c541b",
+      "bytes": 9753
+    },
+    {
+      "name": "validation.json",
+      "sha256": "e3685cede9c2e670d28eb5708e6459ff5bffc1e7bfbdd345e43003a4488f4164",
+      "bytes": 8833
+    }
+  ]
+}

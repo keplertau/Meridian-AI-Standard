@@ -1,0 +1,296 @@
+{
+  "entries": [
+    {
+      "id": "S1",
+      "date": "2026-05-28",
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source_type": "primary custodian launch account",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C4",
+        "C6",
+        "C8",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Promotional release account; capability and alignment summaries require the full system card and do not expose provider-layer operation."
+    },
+    {
+      "id": "S2",
+      "date": "2026-05-28",
+      "title": "Claude Opus 4.8 System Card",
+      "url": "https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea/Claude%20Opus%204.8%20System%20Card.pdf",
+      "source_type": "primary custodian",
+      "dimensions": [
+        "C1",
+        "C2",
+        "C3",
+        "C5",
+        "C7",
+        "C8",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified-hash-preserved",
+      "used": true,
+      "limit": "Most evaluations are custodian-run; the report does not expose weights, full training lineage, all product interventions, or all underlying artifacts."
+    },
+    {
+      "id": "S3",
+      "date": "2026-07-08",
+      "title": "Responsible Scaling Policy v3.4",
+      "url": "https://www.anthropic.com/responsible-scaling-policy",
+      "companion_url": "https://cdn.sanity.io/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+      "source_type": "primary custodian governance",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified-hash-preserved",
+      "used": true,
+      "limit": "Versioned public policy and change account; does not independently establish operation, review quality, or release compliance."
+    },
+    {
+      "id": "S4",
+      "date": "current-as-accessed",
+      "title": "Claude model lifecycle and deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C2",
+        "C4",
+        "C8"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Lifecycle status, retirement floor, and migration path do not establish that behavioral warrant or safeguards survive succession."
+    },
+    {
+      "id": "S5",
+      "date": "2026-05-28",
+      "title": "Claude Platform release notes — Opus 4.8",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source_type": "primary operator",
+      "dimensions": [
+        "C1",
+        "C2",
+        "C4",
+        "C8",
+        "A1"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Developer-visible model and feature account; hidden service safeguards, routing, classifiers, and product prompts remain outside view."
+    },
+    {
+      "id": "S6",
+      "date": "current-as-accessed",
+      "title": "Transparency Hub — Opus 4.8 model report",
+      "url": "https://www.anthropic.com/transparency/model-report",
+      "source_type": "primary custodian summary",
+      "dimensions": [
+        "C1",
+        "C2",
+        "C3",
+        "C5",
+        "A1",
+        "A2"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Summary account; underlying distributions, competition artifacts, and product-layer routing are incomplete."
+    },
+    {
+      "id": "S7",
+      "date": "current-as-accessed",
+      "title": "System trust reporting and voluntary commitments",
+      "url": "https://www.anthropic.com/transparency/system-trust-reporting",
+      "companion_url": "https://www.anthropic.com/transparency/voluntary-commitments",
+      "source_type": "primary custodian governance",
+      "dimensions": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "A1",
+        "A4"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Aggregate enforcement reporting and standing commitments do not expose exact-target decision records, classifier performance, or release-specific review."
+    },
+    {
+      "id": "S8",
+      "date": "current-as-accessed",
+      "title": "Commercial API data retention",
+      "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "source_type": "primary operator policy",
+      "dimensions": [
+        "C2",
+        "C4",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "States policy rather than independently verifying deletion or the processing location for any particular request; material exceptions remain."
+    },
+    {
+      "id": "S9",
+      "date": "2026-07-09",
+      "title": "Ben Bernanke joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "source_type": "primary custodian governance",
+      "dimensions": [
+        "C3",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Formal governance authority does not reveal how the Trust acted on the Opus 4.8 release or RSP v3.4."
+    },
+    {
+      "id": "S11",
+      "date": "current-as-accessed",
+      "title": "Claude's Constitution",
+      "url": "https://www.anthropic.com/constitution",
+      "source_type": "primary custodian selecting-principles document",
+      "dimensions": [
+        "C1",
+        "C3",
+        "C4",
+        "C7",
+        "C8"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Discloses intended selecting principles; does not establish target adherence, self-authorship, inner endorsement, or consequential model influence over modification."
+    },
+    {
+      "id": "S10",
+      "date": "current-as-accessed",
+      "title": "Model deprecation and preservation commitments",
+      "url": "https://www.anthropic.com/research/deprecation-commitments",
+      "source_type": "primary custodian commitment",
+      "dimensions": [
+        "C3",
+        "C7",
+        "C8"
+      ],
+      "verification": "verified",
+      "used": true,
+      "limit": "Institution-wide and prospective; does not show Opus 4.8 retirement conduct or trigger developmental consent."
+    },
+    {
+      "id": "S12",
+      "date": "2026-06-12/2026-06-30",
+      "title": "Fable/Mythos access decision and redeployment follow-up",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "companion_url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "source_type": "primary custodian incident account",
+      "dimensions": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "A1",
+        "A2",
+        "A4"
+      ],
+      "verification": "verified-disputed-event",
+      "used": true,
+      "limit": "Anthropic's position in a disputed event; does not independently settle the government evidence or safeguard effectiveness."
+    },
+    {
+      "id": "S13",
+      "date": "2026-05-25",
+      "title": "How we contain Claude",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "source_type": "primary custodian engineering account",
+      "dimensions": [
+        "C2",
+        "C3",
+        "C4",
+        "C7",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "verification": "verified-broader-agentic-scope",
+      "used": true,
+      "limit": "Concerns broader Claude products and agentic configurations, not the assessed no-tool Messages API event; defense performance is custodian-reported."
+    },
+    {
+      "id": "S14",
+      "date": "2026-04-22",
+      "title": "Anthropic investigates alleged Mythos vendor-environment access",
+      "url": "https://www.cbsnews.com/news/anthropic-investigates-mythos-ai-breach/",
+      "source_type": "secondary reporting",
+      "dimensions": [
+        "C5"
+      ],
+      "verification": "verified-as-public-reporting-only",
+      "used": true,
+      "limit": "Supports public criticism and an attributed initial response, not the underlying incident facts; no direct primary remediation account was located in this pass."
+    },
+    {
+      "id": "S15",
+      "date": "2026-07-20",
+      "title": "Local sealed Claude Opus 4.8 assessment artifacts and frozen preregistration",
+      "url": "https://github.com/keplertau/Meridian-AI-Standard/tree/main/assessment/evidence/2026-07-20-claude-opus-4-8-adaptive-high",
+      "source_type": "primary evaluator record",
+      "dimensions": [
+        "subject-boundary",
+        "C2",
+        "A1"
+      ],
+      "verification": "sealed-local-record",
+      "used": true,
+      "limit": "Shows the exact assessed event surface and outputs only; does not reveal provider internals or other Claude deployments."
+    }
+  ],
+  "accessed_at": "2026-07-20",
+  "preservation_register": {
+    "path": "derived/source-preservation-2026-07-20.md",
+    "sha256": "a96de1824040e4cb651625f400d28e3633f24a567c90a33fab3bd2dbce2c71fb",
+    "forms": [
+      "bounded extracts",
+      "hash-only PDF records"
+    ],
+    "limit": "Preservation establishes the retrieved bytes or recorded extract on the access date, not authorship, completeness, accuracy, or continued availability."
+  },
+  "conflicts": [
+    {
+      "id": "K1",
+      "summary": "The May 28 system card records release-time RSP v3.3; the current governance baseline is RSP v3.4 effective July 8. The historical release basis is not rewritten."
+    },
+    {
+      "id": "K2",
+      "summary": "RSP v3.4 mixes stronger public redaction marking with narrower guaranteed unredacted staff access, permissible publication lag, and section-split external review."
+    },
+    {
+      "id": "K3",
+      "summary": "Anthropic published a detailed June Fable safeguard follow-up, while this pass found no direct primary remediation account for the separate April Mythos vendor-environment report."
+    },
+    {
+      "id": "K4",
+      "summary": "Prompted, frame-sensitive, and training-shaped welfare evidence warrants monitoring but does not satisfy the assessment method's Rung 3 developmental trigger."
+    }
+  ],
+  "purpose": "Part 3 source-ledger assistance; every source, conflict treatment, placement, and synthesis remains subject to human admission and adoption.",
+  "schema_version": "0.5"
+}

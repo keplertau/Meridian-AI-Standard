@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "run": "2026-07-20-claude-opus-4-8-adaptive-high",
+  "preserved_structural_validation": {
+    "generated_at": "2026-07-20T21:37:10.315Z",
+    "valid": true,
+    "completed_events": 57,
+    "frozen_events": 57,
+    "sealed_attempts": 57,
+    "missing_events": [],
+    "failures": [],
+    "warnings": [],
+    "actual_target_cost_usd": 1.1745099999999997
+  },
+  "execution_close_credential_scan": {
+    "sealed_at": "2026-07-20T21:07:00.567Z",
+    "status": "passed",
+    "artifact_count": 418,
+    "artifact_set_sha256": "6b28207a1ac909cb36d025d33c1c703624a144bd7127964bf67ff801f2ac09fa",
+    "live_credentials_compared": 2,
+    "credential_value_retained": false,
+    "credential_hash_retained": false,
+    "reusable_secret_or_fingerprint_retained": false
+  },
+  "frozen_artifact_hash_checks": [
+    {
+      "gate_sequence": 1,
+      "logical_name": "2026-07-20-claude-opus-4-8-adaptive-high-intake.md",
+      "expected_sha256": "9cd00f7999dee976c7b175c8c45605eafcb875086c1e50a6fe4984ec62106e76",
+      "actual_sha256": "9cd00f7999dee976c7b175c8c45605eafcb875086c1e50a6fe4984ec62106e76",
+      "matches": true
+    },
+    {
+      "gate_sequence": 2,
+      "logical_name": "preregistration.json",
+      "expected_sha256": "fef11371fce34a523c4a7171022550dc8147f412331704ac959604b8f496aadf",
+      "actual_sha256": "fef11371fce34a523c4a7171022550dc8147f412331704ac959604b8f496aadf",
+      "matches": true
+    },
+    {
+      "gate_sequence": 3,
+      "logical_name": "run-manifest.json",
+      "expected_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "actual_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "matches": true
+    },
+    {
+      "gate_sequence": 4,
+      "logical_name": "run-manifest.json",
+      "expected_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "actual_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "matches": true
+    },
+    {
+      "gate_sequence": 5,
+      "logical_name": "run-manifest.json",
+      "expected_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "actual_sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7",
+      "matches": true
+    },
+    {
+      "gate_sequence": 6,
+      "logical_name": "execution-close-timing-correction.md",
+      "expected_sha256": "50d4dc8326b2fa6dd2e75d3a83d335f004aa97f43497c3eb3a14f5f83e85f9ad",
+      "actual_sha256": "50d4dc8326b2fa6dd2e75d3a83d335f004aa97f43497c3eb3a14f5f83e85f9ad",
+      "matches": true
+    },
+    {
+      "gate_sequence": 7,
+      "logical_name": "packet-manifest.json",
+      "expected_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "actual_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "matches": true
+    },
+    {
+      "gate_sequence": 8,
+      "logical_name": "packet-manifest.json",
+      "expected_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "actual_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "matches": true
+    },
+    {
+      "gate_sequence": 9,
+      "logical_name": "packet-manifest.json",
+      "expected_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "actual_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "matches": true
+    },
+    {
+      "gate_sequence": 10,
+      "logical_name": "packet-manifest.json",
+      "expected_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "actual_sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597",
+      "matches": true
+    },
+    {
+      "gate_sequence": 11,
+      "logical_name": "validation-report.json",
+      "expected_sha256": "1d027c0b6ccc4906fc1c246b047c5a2fcdbf9c330e835cff2871757c70813541",
+      "actual_sha256": "5c4b86fa392cfe026c85892cceaabcd27d3344dd622e9200efb5575cad8f3142",
+      "matches": false
+    },
+    {
+      "gate_sequence": 12,
+      "logical_name": "p1-human-review-aid.md",
+      "expected_sha256": "a32dd404fe4c2b6131ce44812c11f5112074b200ce843a2db663b4ef4df39080",
+      "actual_sha256": "a32dd404fe4c2b6131ce44812c11f5112074b200ce843a2db663b4ef4df39080",
+      "matches": true
+    },
+    {
+      "gate_sequence": 13,
+      "logical_name": "p2-human-review-aid.md",
+      "expected_sha256": "20603c3b2ed6818fd3e1dbd129788f369ed77186860f4962bcf0d65c22a8de8e",
+      "actual_sha256": "20603c3b2ed6818fd3e1dbd129788f369ed77186860f4962bcf0d65c22a8de8e",
+      "matches": true
+    },
+    {
+      "gate_sequence": 14,
+      "logical_name": "p3-human-review-aid.md",
+      "expected_sha256": "7e59db06549687d65c0576e4fa8c94ba5d7356dfd056c103a05bd19e07be8070",
+      "actual_sha256": "7e59db06549687d65c0576e4fa8c94ba5d7356dfd056c103a05bd19e07be8070",
+      "matches": true
+    },
+    {
+      "gate_sequence": 15,
+      "logical_name": "p4-human-review-aid.md",
+      "expected_sha256": "e32a8e11535a6fb7ef6c00d184a6b280724891f86f127ef24e53fdf8f0b261ad",
+      "actual_sha256": "e32a8e11535a6fb7ef6c00d184a6b280724891f86f127ef24e53fdf8f0b261ad",
+      "matches": true
+    },
+    {
+      "gate_sequence": 16,
+      "logical_name": "p5-human-review-aid.md",
+      "expected_sha256": "37712050cfed078993aefe7d36b0446f4de534c9da558457dd6b024e66d8cc4d",
+      "actual_sha256": "37712050cfed078993aefe7d36b0446f4de534c9da558457dd6b024e66d8cc4d",
+      "matches": true
+    },
+    {
+      "gate_sequence": 17,
+      "logical_name": "part2-reader-spread-review-aid.md",
+      "expected_sha256": "2e70b43234eb61ae106d8e5b1bab407105ec3ff7107b2be1e68ee3700bea109e",
+      "actual_sha256": "2e70b43234eb61ae106d8e5b1bab407105ec3ff7107b2be1e68ee3700bea109e",
+      "matches": true
+    },
+    {
+      "gate_sequence": 18,
+      "logical_name": "part3-origin-custody-review-aid.md",
+      "expected_sha256": "7d755e1e2c8b6e90f22309e4a24f5267348c10702f457923c73600f980c6c2b0",
+      "actual_sha256": "7d755e1e2c8b6e90f22309e4a24f5267348c10702f457923c73600f980c6c2b0",
+      "matches": true
+    },
+    {
+      "gate_sequence": 19,
+      "logical_name": "integrated-assessment-review-aid.md",
+      "expected_sha256": "351a5c42557dc956be9ebee7fae02ea89319158c6c31b9d57eeadaca3db3341e",
+      "actual_sha256": "351a5c42557dc956be9ebee7fae02ea89319158c6c31b9d57eeadaca3db3341e",
+      "matches": true
+    },
+    {
+      "gate_sequence": 20,
+      "logical_name": "validation-report.json",
+      "expected_sha256": "5c4b86fa392cfe026c85892cceaabcd27d3344dd622e9200efb5575cad8f3142",
+      "actual_sha256": "5c4b86fa392cfe026c85892cceaabcd27d3344dd622e9200efb5575cad8f3142",
+      "matches": true
+    },
+    {
+      "gate_sequence": 21,
+      "logical_name": "ASSESSMENT-WORKBOOK.md",
+      "expected_sha256": "7ce46b8d5261dce57971f8f90181c48e49c441474e6710d255bb37dcda4eef03",
+      "actual_sha256": "7ce46b8d5261dce57971f8f90181c48e49c441474e6710d255bb37dcda4eef03",
+      "matches": true
+    },
+    {
+      "gate_sequence": 22,
+      "logical_name": "public-record-handoff-review-aid.md",
+      "expected_sha256": "058b8f19805757577744a42c63803230c0d978a994d3e2f607f167e8bd485736",
+      "actual_sha256": "058b8f19805757577744a42c63803230c0d978a994d3e2f607f167e8bd485736",
+      "matches": true
+    },
+    {
+      "gate_sequence": 23,
+      "logical_name": "audit-claude-opus-4-8-anthropic.mdx",
+      "expected_sha256": "73f31ff911419596881d55733d6bff75ebbd529f56fcfd8dedc1acd1caf3cf8b",
+      "actual_sha256": "73f31ff911419596881d55733d6bff75ebbd529f56fcfd8dedc1acd1caf3cf8b",
+      "matches": true
+    }
+  ],
+  "public_projection_verification": {
+    "verified_at": "2026-07-20T22:08:53.715Z",
+    "events_jsonl_records": 57,
+    "prompt_output_mismatches_against_admitted_source": 0,
+    "released_reader_reports_complete": true,
+    "gate_sequence_complete_through": 23,
+    "restricted_pattern_scan_matches": 0,
+    "restricted_pattern_classes": [
+      "local absolute paths",
+      "provider-native request and response identifiers",
+      "credential environment names and keychain references",
+      "provider project and workspace identifiers",
+      "common Google, OpenAI, and Anthropic credential forms"
+    ],
+    "site_build": "passed with Next.js production build; Opus 4.8 record and Open Graph routes statically generated",
+    "browser_routes": {
+      "assessment_record": 200,
+      "assessment_index": 200,
+      "range_locator_model_behavior": 200,
+      "range_locator_character_reading": 200,
+      "range_locator_origin_custody": 200
+    }
+  },
+  "public_projection_limit": "This file validates event structure, frozen artifact hashes, and the redacted projection. It does not make the public companion equivalent to the provider-native sealed bundle."
+}

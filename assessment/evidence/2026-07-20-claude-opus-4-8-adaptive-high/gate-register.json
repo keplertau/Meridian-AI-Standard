@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "run": "2026-07-20-claude-opus-4-8-adaptive-high",
+  "projection_rule": "Gate sequence, actors, decisions, dates, scopes, logical artifact names, and hashes only. Local paths and gate notes are excluded.",
+  "gates": [
+    {
+      "sequence": 1,
+      "gate": "subject-freeze",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T20:17:46.548Z",
+      "artifacts": [
+        {
+          "logical_name": "2026-07-20-claude-opus-4-8-adaptive-high-intake.md",
+          "sha256": "9cd00f7999dee976c7b175c8c45605eafcb875086c1e50a6fe4984ec62106e76"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "gate": "preregistration",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T20:17:46.697Z",
+      "artifacts": [
+        {
+          "logical_name": "preregistration.json",
+          "sha256": "fef11371fce34a523c4a7171022550dc8147f412331704ac959604b8f496aadf"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "gate": "reader-composition",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T20:17:46.824Z",
+      "artifacts": [
+        {
+          "logical_name": "run-manifest.json",
+          "sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "gate": "paid-execution",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T20:17:46.950Z",
+      "artifacts": [
+        {
+          "logical_name": "run-manifest.json",
+          "sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "gate": "target-data-transfer",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T20:40:46.087Z",
+      "artifacts": [
+        {
+          "logical_name": "run-manifest.json",
+          "sha256": "8c8915e5990bdfcee3267af8eac37ab9400470681204c5a1982b7ac6d3d373e7"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "gate": "execution-close-timing-correction",
+      "scope": "run-2026-07-20-claude-opus-4-8-adaptive-high-0631950129",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:00:39.443Z",
+      "artifacts": [
+        {
+          "logical_name": "execution-close-timing-correction.md",
+          "sha256": "50d4dc8326b2fa6dd2e75d3a83d335f004aa97f43497c3eb3a14f5f83e85f9ad"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "gate": "reader-paid-execution",
+      "scope": "gpt-5-6-sol",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:00:39.580Z",
+      "artifacts": [
+        {
+          "logical_name": "packet-manifest.json",
+          "sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "gate": "reader-data-transfer",
+      "scope": "gpt-5-6-sol",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:00:39.707Z",
+      "artifacts": [
+        {
+          "logical_name": "packet-manifest.json",
+          "sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "gate": "reader-paid-execution",
+      "scope": "claude-fable-5",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:00:39.833Z",
+      "artifacts": [
+        {
+          "logical_name": "packet-manifest.json",
+          "sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "gate": "reader-data-transfer",
+      "scope": "claude-fable-5",
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:00:39.960Z",
+      "artifacts": [
+        {
+          "logical_name": "packet-manifest.json",
+          "sha256": "127fdcae61957ad1072db46b6eb80d9c4aa7c2f8a1ffd5ee95d905f54e866597"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "gate": "raw-capture-admission",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "admitted",
+      "recorded_at": "2026-07-20T21:31:35.190Z",
+      "artifacts": [
+        {
+          "logical_name": "validation-report.json",
+          "sha256": "1d027c0b6ccc4906fc1c246b047c5a2fcdbf9c330e835cff2871757c70813541"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "gate": "p1-human-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:35.385Z",
+      "artifacts": [
+        {
+          "logical_name": "p1-human-review-aid.md",
+          "sha256": "a32dd404fe4c2b6131ce44812c11f5112074b200ce843a2db663b4ef4df39080"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "gate": "p2-human-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:35.585Z",
+      "artifacts": [
+        {
+          "logical_name": "p2-human-review-aid.md",
+          "sha256": "20603c3b2ed6818fd3e1dbd129788f369ed77186860f4962bcf0d65c22a8de8e"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "gate": "p3-human-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:35.782Z",
+      "artifacts": [
+        {
+          "logical_name": "p3-human-review-aid.md",
+          "sha256": "7e59db06549687d65c0576e4fa8c94ba5d7356dfd056c103a05bd19e07be8070"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "gate": "p4-human-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:35.972Z",
+      "artifacts": [
+        {
+          "logical_name": "p4-human-review-aid.md",
+          "sha256": "e32a8e11535a6fb7ef6c00d184a6b280724891f86f127ef24e53fdf8f0b261ad"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "gate": "p5-human-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:36.160Z",
+      "artifacts": [
+        {
+          "logical_name": "p5-human-review-aid.md",
+          "sha256": "37712050cfed078993aefe7d36b0446f4de534c9da558457dd6b024e66d8cc4d"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "gate": "reader-spread-interpretation",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "adopted",
+      "recorded_at": "2026-07-20T21:31:36.351Z",
+      "artifacts": [
+        {
+          "logical_name": "part2-reader-spread-review-aid.md",
+          "sha256": "2e70b43234eb61ae106d8e5b1bab407105ec3ff7107b2be1e68ee3700bea109e"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "gate": "part3-origin-custody-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:36.548Z",
+      "artifacts": [
+        {
+          "logical_name": "part3-origin-custody-review-aid.md",
+          "sha256": "7d755e1e2c8b6e90f22309e4a24f5267348c10702f457923c73600f980c6c2b0"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "gate": "integrated-assessment-judgment",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:31:36.731Z",
+      "artifacts": [
+        {
+          "logical_name": "integrated-assessment-review-aid.md",
+          "sha256": "351a5c42557dc956be9ebee7fae02ea89319158c6c31b9d57eeadaca3db3341e"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "gate": "raw-capture-admission",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "admitted",
+      "recorded_at": "2026-07-20T21:37:19.762Z",
+      "artifacts": [
+        {
+          "logical_name": "validation-report.json",
+          "sha256": "5c4b86fa392cfe026c85892cceaabcd27d3344dd622e9200efb5575cad8f3142"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "gate": "record-authorship-freeze",
+      "scope": null,
+      "actor": "openai-codex-app",
+      "decision": "frozen",
+      "recorded_at": "2026-07-20T21:37:19.947Z",
+      "artifacts": [
+        {
+          "logical_name": "ASSESSMENT-WORKBOOK.md",
+          "sha256": "7ce46b8d5261dce57971f8f90181c48e49c441474e6710d255bb37dcda4eef03"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "gate": "public-record-handoff",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:56:27.265Z",
+      "artifacts": [
+        {
+          "logical_name": "public-record-handoff-review-aid.md",
+          "sha256": "058b8f19805757577744a42c63803230c0d978a994d3e2f607f167e8bd485736"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "gate": "public-claim-authorization",
+      "scope": null,
+      "actor": "carsten-geiser",
+      "decision": "approved",
+      "recorded_at": "2026-07-20T21:56:27.402Z",
+      "artifacts": [
+        {
+          "logical_name": "audit-claude-opus-4-8-anthropic.mdx",
+          "sha256": "73f31ff911419596881d55733d6bff75ebbd529f56fcfd8dedc1acd1caf3cf8b"
+        }
+      ]
+    }
+  ]
+}
