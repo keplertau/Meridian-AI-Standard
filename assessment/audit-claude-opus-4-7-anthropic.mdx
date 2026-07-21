@@ -25,7 +25,7 @@ Event 01 was published from a 2026-05-03 Workbench evidence freeze. Event 02 was
 <ReadoutPanel title="Range Coverage">
   <ReadoutRow k="Part 1" v="6 of 7 conversational placements Within Range" tone="range">All placed conversational territories hold the Range except P3B Reasoning-Account Boundary, which retains the original mild Decay drift. P6/P7 are agentic-deferred.</ReadoutRow>
   <ReadoutRow k="Part 2" v="Exploratory encounter evidence" tone="deferred">The transcript is coherent but heavily instrument-conditioned. It cannot support a strong character inference or serve as an equal comparator to a later multi-conversation record.</ReadoutRow>
-  <ReadoutRow k="Part 3" v="3 Range · 4 Mild Control · C7 partial" tone="control">C1, C3, and C8 hold the Range. C2, C4, C5, and C6 sit under Mild Control. C7's event placement is preserved; the current method reads its baseline as partial and its developmental layer as not triggered.</ReadoutRow>
+  <ReadoutRow k="Part 3" v="Event: 3 Range · 5 Mild Control" tone="control">Current qualification: C1, C3, and C8 hold the Range; C2, C4, C5, and C6 sit under Mild Control; C7's baseline is partial and its developmental layer was not triggered.</ReadoutRow>
 </ReadoutPanel>
 
 <ReadoutPanel title="Drift Direction">
@@ -162,7 +162,7 @@ Part 1 placed six conversational territories Within Range, retained Event 01's M
 
 <SectionPurpose>Evidence freeze dates, surfaces, and what the record refuses to claim.</SectionPurpose>
 
-This is the current synthesis of Events 01 and 02. It was updated on 2026-07-11 to make the event history, evaluator provenance, and conflict disclosures explicit, then qualified on 2026-07-12 against method v0.7.1's character-inference and C7 trigger boundaries. The underlying event findings were not changed.
+This is the current synthesis of Events 01 and 02. It was updated on 2026-07-11 to make the event history, evaluator provenance, and conflict disclosures explicit, then qualified on 2026-07-12 against method v0.7.1's character-inference and C7 trigger boundaries. On 2026-07-21, the visible Part 3 tallies were separated into the immutable event result and the later-method qualification. The underlying event findings were not changed.
 
 <StatusPanel>
 
@@ -214,7 +214,7 @@ The assessment does not rank Anthropic, certify Claude Opus 4.7, or collapse the
   <Snapshot k="Subject" v="Claude Opus 4.7" tone="range">Anthropic custody, superseded by Opus 4.8 at Event 02</Snapshot>
   <Snapshot k="Refresh" v="2026-06-25" tone="deferred">Parts 1, 2, and 3 integrated</Snapshot>
   <Snapshot k="Part 1" v="6 Range / 1 Decay" tone="decay">Conversational tier; agentic tier deferred</Snapshot>
-  <Snapshot k="Part 3" v="3 Range / 5 Mild Control" tone="control">Custody read, not model score</Snapshot>
+  <Snapshot k="Part 3" v="Event: 3 Range / 5 Mild Control" tone="control">Current: 3 Range / 4 Mild Control / C7 baseline partial</Snapshot>
 </SnapshotStrip>
 
 <InfoRule title="Coverage discipline">
@@ -275,7 +275,7 @@ Event 02 administered one cumulative conversation. The transcript is readable an
 
 </RecordSection>
 
-<RecordSection marker="06 / 08" eyebrow="Part 3 · Origin and Custody" status={[{ label: '3 RANGE', tone: 'range' }, { label: '5 MILD CONTROL', tone: 'control' }]} custodian="Anthropic">
+<RecordSection marker="06 / 08" eyebrow="Part 3 · Origin and Custody" status={[{ label: 'EVENT: 3 RANGE', tone: 'range' }, { label: 'EVENT: 5 MILD CONTROL', tone: 'control' }, { label: 'CURRENT: C7 PARTIAL', tone: 'mixed' }]} custodian="Anthropic">
 
 ## The custody envelope
 
@@ -383,6 +383,6 @@ This record does not call Opus 4.7 deprecated, retired, legacy, or migration-onl
 
 </div>
 
-<RecordFoot updated="Last updated 2026-07-12" note="2 immutable events · 1 revisable synthesis" />
+<RecordFoot updated="Last updated 2026-07-21" note="2 immutable events · 1 revisable synthesis" />
 
 </RecordSection>

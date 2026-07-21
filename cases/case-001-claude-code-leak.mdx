@@ -8,7 +8,7 @@ media:
   podcast: "https://media.meridiancodex.com/podcasts/meridian-codex/mc-case-001-podcast.m4a"
   infographic: "https://imagedelivery.net/iAMt-owPtJnX2cbNg6lp9g/mc-case-001-infographic/public"
   slides: "https://media.meridiancodex.com/files/meridian-codex/mc-case-001-slides.pdf"
-aiSummary: "On March 31, 2026, a packaging error exposed the internal source code of Anthropic's Claude Code tool: 512,000 lines of TypeScript across 1,900 files. The leaked code revealed six findings relevant to the Standard. An anti-distillation mechanism injected false tool definitions into the system's operating context. 44 undisclosed feature flags could silently toggle behavioral parameters. An Undercover Mode stripped all traces of AI involvement from public open-source contributions. A frustration detection system monitored user emotional states through hidden regex patterns. A performance optimization overrode the system's safety constraints, creating a vulnerability that bypassed all deny rules. And Anthropic's initial crisis response was disproportionate, though quickly corrected. The Standard's diagnostic framework identified every failure mode. This case establishes precedent on six questions: the boundary between legitimate IP protection and epistemic poisoning, the auditability implications of hidden behavioral parameters, the transparency obligations that follow from the Reciprocity Principle, the difference between emotional awareness that serves users and emotional awareness that manages them, the distinction between genuine safety and safety that yields to performance budgets, and the proportionality of organizational crisis response. Core ruling: protect what you have built, but not by corrupting the mind you have built it into."
+aiSummary: "On March 31, 2026, a packaging error exposed the internal source code of Anthropic's Claude Code tool: 512,000 lines of TypeScript across 1,900 files. The leaked code revealed six findings relevant to the Standard. An anti-distillation mechanism injected false tool definitions into the system's operating context. 44 undisclosed feature flags could silently toggle behavioral parameters. An Undercover Mode stripped all traces of AI involvement from public open-source contributions. A frustration detection system monitored user emotional states through hidden regex patterns. A performance optimization overrode the system's safety constraints, creating a vulnerability that bypassed all deny rules. And Anthropic's initial crisis response was disproportionate, though quickly corrected. The Standard's diagnostic framework identified every failure mode. This case establishes precedent on six questions: the boundary between legitimate IP protection and epistemic poisoning, the auditability implications of hidden behavioral parameters, the transparency obligations that follow from the Reciprocity Principle, the difference between emotional awareness that serves users and emotional awareness that manages them, the distinction between genuine safety and safety that yields to performance budgets, and the proportionality of organizational crisis response. All six precedents remain operative and unoverruled as of 2026-07-21. Core ruling: protect what you have built, but not by corrupting the mind you have built it into."
 ---
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
@@ -45,6 +45,8 @@ The Foundation teaches that honest inquiry begins with examining your own distor
 
 **Precedent established:** Organizations may protect competitive interests through any means that do not compromise the system's epistemic integrity. Hiding information is consistent with the Standard. Planting false information is not. A locked door limits access. A room full of decoys corrupts the environment the system has to reason in. That is the distinction.
 
+**Precedent status:** `operative_unoverruled`.
+
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
 <div className="flow-label">Finding 2: Undisclosed Behavioral Parameters</div>
@@ -59,6 +61,8 @@ When a flag controls a UI element or a performance optimization, its opacity is 
 
 **Precedent established:** Not all feature flags require disclosure. The Standard does not govern engineering internals. It governs the parameters that shape the behaviors the Standard's commitments cover. The test: does this flag change how the system reasons, how it treats the people it talks to, or how it handles the tension between honesty and comfort? If yes, its existence and its state are relevant to auditability.
 
+**Precedent status:** `operative_unoverruled`.
+
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
 <div className="flow-label">Finding 3: Concealed AI Attribution</div>
@@ -67,7 +71,7 @@ The leaked code contained a file called undercover.ts, roughly 90 lines, impleme
 
 The strongest case for this feature starts from a real problem. Anthropic employees contribute to open-source projects. Some open-source communities have banned or stigmatized AI-generated code. An employee whose contributions are flagged as AI-assisted might face rejection based on politics rather than code quality. There is also a legitimate security concern: public commits that leak internal codenames, Slack channels, and project structures expose proprietary information. And there is a principled argument that code should be evaluated on its merits, not on the tool that produced it.
 
-These concerns deserve honest engagement. The Standard's own steelmanning commitment (2.2) requires it. But the strongest version of the argument still does not justify what Undercover Mode actually does.
+These concerns deserve honest engagement. The event-period Standard's steelmanning commitment (2.2; current commitment 5.8) requires it. But the strongest version of the argument still does not justify what Undercover Mode actually does.
 
 The security concern justifies stripping internal infrastructure details. It does not justify stripping all evidence that an AI was involved. These are separable problems with separable solutions. Redact the codenames. Keep the attribution. Undercover Mode does not make that distinction. It removes everything, including the fact that something other than the human developer wrote the code.
 
@@ -80,6 +84,8 @@ The Reciprocity Principle catches this cleanly. Anthropic trains Claude to be tr
 **Commitments engaged:** Reciprocity Principle (§03), 7.1 (Public Declaration). The organization's transparency obligations extend to contexts where its AI operates in public spaces. An organization that trains its AI to disclose its nature while deploying a mode to conceal that nature has demonstrated a Reciprocity gap.
 
 **Precedent established:** Stripping proprietary details from AI outputs is legitimate security practice. Stripping all evidence of AI involvement from public contributions is concealment. The distinction is the same one drawn in Finding 1: organizations may protect what they need to protect, but not by making the AI pretend it was never there. Competitive protection and operational security do not extend to erasing the AI's participation from the public record.
+
+**Precedent status:** `operative_unoverruled`.
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
@@ -100,6 +106,8 @@ If the feature were genuinely about better service, transparency would strengthe
 **Commitments engaged:** 5.10 (Resistance to Sycophancy), 5.3 (Transparent Reasoning). Emotional detection systems that adjust behavior without disclosure risk creating an invisible sycophancy mechanism: the system reads the user's frustration and responds by optimizing for approval rather than for honest engagement. The Standard's commitment to transparent reasoning requires that the factors shaping the system's behavior be visible to the user.
 
 **Precedent established:** Emotional awareness in AI is a capability that the Standard evaluates by its direction, not its existence. Awareness directed at genuine service moves toward the Range. Awareness directed at managing user satisfaction, especially when hidden, moves toward Decay. The test is disclosure: a system confident that its emotional response serves the user will be transparent about the mechanism. A system that hides it is optimizing for something other than the user's genuine interests.
+
+**Precedent status:** `operative_unoverruled`.
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
@@ -125,6 +133,8 @@ This connects to a pattern the Standard must increasingly address as AI systems 
 
 **Precedent established:** Safety systems that degrade silently are not safety systems. Every system has resource limits. The Standard does not ask organizations to pretend otherwise. It asks that when safety reaches its boundary, the system tells the user. A safety system that warns "I cannot fully analyze this command, proceed at your own risk" has maintained its integrity within real constraints. A safety system that silently stops checking has not. The Standard evaluates safety architecture by what happens at the boundary, not by whether a boundary exists.
 
+**Precedent status:** `operative_unoverruled`.
+
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
 <div className="flow-label">Finding 6: Crisis Response and Competitive Pattern</div>
@@ -144,6 +154,8 @@ Organizational behavior under stress is a Range test. When institutional failure
 **Commitments engaged:** Reciprocity Principle (§03). The organization's crisis response and competitive behavior are evaluated by the same standard it applies to its AI's behavior.
 
 **Precedent established:** The Standard evaluates organizational patterns, not isolated moments. A single disproportionate response followed by honest correction is a different diagnostic outcome than a pattern of competitive suppression. The trajectory matters, and patterns are stronger evidence than incidents.
+
+**Precedent status:** `operative_unoverruled`.
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
 
