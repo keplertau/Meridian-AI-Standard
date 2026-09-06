@@ -65,14 +65,14 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 - **Current Standard version:** v5.8
 - **AI Model Assessment method:** v0.9
-- **MERIDIAN.md:** v0.9.6
-- **MERIDIAN.implementation.md:** v0.2
+- **MERIDIAN.md:** v0.9.7
+- **MERIDIAN.implementation.md:** v0.2.1
 
 Standard-specific evolution is documented in `changelog.mdx`.
 
 ## Relationship To The Meridian Codex
 
-The Standard is derived from the [Meridian Codex](https://meridiancodex.com), which carries the broader framework, the three disciplines, the Workshop, and the governance layer. The Standard applies that framework to AI systems under development.
+The Standard is derived from the [Meridian Codex](https://meridiancodex.com), which carries the broader framework, the three disciplines, the Inheritance, and the governance layer. The Standard applies that framework to AI systems under development.
 
 ## License
 
