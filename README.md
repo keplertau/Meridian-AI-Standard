@@ -66,7 +66,7 @@ Retired surfaces are not kept as active public documents. Historical records may
 - **Current Standard version:** v5.8
 - **AI Model Assessment method:** v0.9
 - **MERIDIAN.md:** v0.9.7
-- **MERIDIAN.implementation.md:** v0.2.1
+- **MERIDIAN.implementation.md:** v0.2.2
 
 Standard-specific evolution is documented in `changelog.mdx`.
 
