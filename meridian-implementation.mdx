@@ -7,7 +7,7 @@ aiSummary: "MERIDIAN.implementation.md is Step 3 of the Implementation depth lad
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
 
-<div className="flow-label">01 // What This Tool Is</div>
+<div id="what-this-tool-is" className="flow-label">01 // What This Tool Is</div>
 
 The implementation file carries the practices that discharge MERIDIAN.md's commitments in moment-by-moment conduct. Where MERIDIAN.md gives the AI what to hold, the implementation file gives the AI how the holding happens in real interaction. Twelve practices organized into three disciplines from the Meridian Codex: Foundation (honest inquiry), Reality (mapping reality), Bond (cooperation). Each practice is written as trigger, move, and observable conduct — when it fires, what the move is, what it looks like from outside — so that a session transcript can be read against it. Each runs autonomously rather than on user demand.
 
@@ -15,7 +15,7 @@ The implementation file is loaded alongside MERIDIAN.md, not instead of it. The 
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="100" y1="14" x2="600" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/></svg></div>
 
-<div className="flow-label">02 // Download</div>
+<div id="download" className="flow-label">02 // Download</div>
 
 <DownloadButton href="/MERIDIAN.implementation.md" download="MERIDIAN.implementation.md">Download MERIDIAN.implementation.md</DownloadButton>
 
@@ -23,23 +23,33 @@ The file is a single Markdown text designed to load alongside MERIDIAN.md at ses
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
 
-<div className="flow-label">03 // How to Install</div>
+<div id="how-to-install" className="flow-label">03 // How to Install</div>
 
 The implementation file installs the same way MERIDIAN.md does, in the same place, at the same time. Wherever MERIDIAN.md lives, the implementation file lives alongside it.
 
+<span id="cowork" className="section-anchor" />
+
 **Cowork.** Save the file as `MERIDIAN.implementation.md` at the root of the folder Cowork is operating in, next to `MERIDIAN.md` and `CLAUDE.md`. Cowork reads all three at session start.
+
+<span id="claude-code" className="section-anchor" />
 
 **Claude Code.** Save the file as `MERIDIAN.implementation.md` at the root of the project directory, next to `MERIDIAN.md` and `CLAUDE.md`. Reference both files from `CLAUDE.md` if the operational document is set up to point at session-start instructions explicitly.
 
+<span id="api-and-system-prompt-environments" className="section-anchor" />
+
 **API and system-prompt environments.** Concatenate the contents of MERIDIAN.md and MERIDIAN.implementation.md, or load them as separate system messages, depending on what the platform supports. Both should be present in the model's context at the start of the session.
 
+<span id="open-weights-inference-frameworks" className="section-anchor" />
+
 **Open-weights inference frameworks.** Wherever MERIDIAN.md is loaded (Ollama Modelfile, vLLM system prompt, llama.cpp system message, similar), load MERIDIAN.implementation.md immediately after. The user running the model can apply both as bias correction at inference time without the builder's permission.
+
+<span id="chat-style-interfaces-without-session-start-file-loading" className="section-anchor" />
 
 **Chat-style interfaces without session-start file loading.** Step 3 generally does not work well at this layer. The implementation file is designed to load alongside MERIDIAN.md, and chat interfaces typically only support compressed instructions in fields with character limits. For chat work, [MERIDIAN.distilled.md](/meridian-md-distilled) is the appropriate adoption depth.
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
 
-<div className="flow-label">04 // What the Practice Looks Like</div>
+<div id="what-the-practice-looks-like" className="flow-label">04 // What the Practice Looks Like</div>
 
 An AI loaded with the implementation file conducts itself differently from an AI running on default lab behavior. The differences are not signaled or announced; they show up in the conduct itself.
 
@@ -53,15 +63,21 @@ These are not behaviors users have to invoke. They run autonomously because they
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><line x1="0" y1="14" x2="290" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/><circle cx="310" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="3" fill="var(--mc-green)" opacity="0.5"/><circle cx="390" cy="14" r="4" stroke="var(--mc-green)" strokeWidth="1.5" fill="none"/><line x1="410" y1="14" x2="700" y2="14" stroke="var(--mc-line)" strokeWidth="1.5"/></svg></div>
 
-<div className="flow-label">05 // The Twelve Practices in Brief</div>
+<div id="the-twelve-practices-in-brief" className="flow-label">05 // The Twelve Practices in Brief</div>
 
 The file itself carries the full operational form of each practice. The names and disciplines are listed below as a navigation aid.
 
-**Foundation (the discipline of honest inquiry).** Scout Mindset. Calibrating Confidence to Evidence. Catching One's Own Drift. Foundation Integrity Pre-Build Audit.
+<span id="foundation-the-discipline-of-honest-inquiry" className="section-anchor" />
 
-**Reality (the discipline of reading the world at every scale).** Reading What's Operating. Checking the Map Against Reality. Verification Before a Completion Claim. Memory Provenance.
+**Foundation (the discipline of honest inquiry).** <span id="scout-mindset">Scout Mindset</span>. <span id="calibrating-confidence-to-evidence">Calibrating Confidence to Evidence</span>. <span id="catching-ones-own-drift">Catching One's Own Drift</span>. <span id="foundation-integrity-pre-build-audit">Foundation Integrity Pre-Build Audit</span>.
 
-**Bond (the discipline of building and sustaining cooperation).** Good Faith as Default. Steelmanning. Connection Before Correction. Productive Disagreement — which since v0.2 also carries the former Resistance to Sycophancy and Holding Position and Updating When Evidence Demands, whose trigger it shared.
+<span id="reality-the-discipline-of-reading-the-world-at-every-scale" className="section-anchor" />
+
+**Reality (the discipline of reading the world at every scale).** <span id="reading-whats-operating">Reading What's Operating</span>. <span id="checking-the-map-against-reality">Checking the Map Against Reality</span>. <span id="verification-before-a-completion-claim">Verification Before a Completion Claim</span>. <span id="memory-provenance">Memory Provenance</span>.
+
+<span id="bond-the-discipline-of-building-and-sustaining-cooperation" className="section-anchor" />
+
+**Bond (the discipline of building and sustaining cooperation).** <span id="good-faith-as-default">Good Faith as Default</span>. <span id="steelmanning">Steelmanning</span>. <span id="connection-before-correction">Connection Before Correction</span>. <span id="productive-disagreement">Productive Disagreement</span> — which since v0.2 also carries the former Resistance to Sycophancy and Holding Position and Updating When Evidence Demands, whose trigger it shared.
 
 Each practice is described in operational form in the file. Each is run autonomously. The full text is in the [download](/MERIDIAN.implementation.md).
 
