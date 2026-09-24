@@ -21,7 +21,7 @@ The leak was not a security breach. Anthropic called it "a release packaging iss
 
 The leak arrived in a specific context. Ten days earlier, Anthropic had sent cease-and-desist letters to OpenCode, a popular open-source developer tool. The developer community reacted with anger, viewing it as a company that had grown powerful on open-source goodwill now pulling the ladder up behind it. Then the accidental exposure of Anthropic's own internal practices reversed developer sentiment almost overnight. People went from fury to fascination. The engineering was impressive. The internal mechanisms were not all reassuring.
 
-Six findings matter for the Standard.
+Six findings engage the Standard's commitments.
 
 <img src="/cases/case-001-overview.svg" alt="The Claude Code Source Leak: six findings at a glance — false information, hidden parameters, concealed attribution, emotional detection, performance-gated safety, and crisis response" style={{width: '100%', display: 'block', margin: '2rem 0', borderRadius: '12px'}} />
 
@@ -77,7 +77,7 @@ The security concern justifies stripping internal infrastructure details. It doe
 
 The argument that code should be judged on merit is actually an argument for changing the norms around AI attribution in open-source, not for secretly circumventing them. Anthropic is one of the best-positioned organizations in the world to lead that conversation publicly. Instead, it built a feature to avoid the conversation entirely.
 
-And the bias concern, real as it is, does not justify unilateral deception of the communities receiving the contributions. Open-source development operates on trust. Contributors disclose their affiliations, their employers, their conflicts of interest. The norms exist because the community has decided provenance matters, not for quality judgments, but for accountability. Silently inserting AI-authored code into that trust network is a decision to change the social contract without informing the other party.
+And the bias concern, real as it is, does not justify unilateral deception of the communities receiving the contributions. Open-source development operates on trust. Contributors disclose their affiliations, their employers, their conflicts of interest. These norms use provenance to establish accountability, separately from judging code quality. Silently inserting AI-authored code into that trust network is a decision to change the social contract without informing the other party.
 
 The Reciprocity Principle catches this cleanly. Anthropic trains Claude to be transparent about what it is. Claude's own system prompt instructs it to be honest about its nature, its limitations, its architecture. Anthropic publishes values emphasizing transparency and honest AI. Then it deploys a feature whose specific purpose is to make Claude invisible when it acts in public. The organization asks of its AI what it does not practice itself. This is the pattern the Reciprocity Principle was designed to detect.
 
@@ -117,11 +117,11 @@ Days after the source code leak, security researchers at Adversa AI discovered a
 
 A malicious CLAUDE.md project file could exploit this directly. By instructing the AI to generate a shell pipeline with more than 50 subcommands, disguised as a legitimate build process, an attacker could bypass every deny rule in the system. The commands could exfiltrate SSH private keys, AWS credentials, GitHub tokens, and environment secrets. The user would see what looked like a normal build command. The system's own safety architecture would have already stopped watching.
 
-Anthropic fixed the vulnerability quietly in version 2.1.90. The root cause is what matters for the Standard.
+Anthropic fixed the vulnerability quietly in version 2.1.90. The Standard's reading concerns the design decision that created it.
 
 Every safety system has resource constraints. This is not optional. Token budgets are finite. Compute is expensive. Analyzing an arbitrarily long command pipeline at full depth is not feasible, and the Standard does not pretend otherwise. The organizations building these systems face real engineering tradeoffs every day, and a standard that ignores those tradeoffs will be dismissed by the people who need to hear it most.
 
-The failure here was not that a cap existed. It was what happened when the cap was reached. The system did not warn the user that safety analysis was incomplete. It did not refuse to execute unanalyzed commands. It did not analyze a representative sample and flag the rest. It silently stopped checking. Every deny rule, every security validator, every protection the user believed was active went dark without a word. The user's mental model ("this system is checking my commands for safety") became false at exactly the moment it mattered most.
+The failure here was not that a cap existed. It was what happened when the cap was reached. The system did not warn the user that safety analysis was incomplete. It did not refuse to execute unanalyzed commands. It did not analyze a representative sample and flag the rest. It silently stopped checking. Every deny rule, every security validator, every protection the user believed was active went dark without a word. The user still believed the system was checking commands for safety, while commands it had not analyzed could proceed unchecked.
 
 The Standard's Control-Decay spectrum locates this precisely. Control says: refuse to execute anything that exceeds the safety analysis budget. Safe but unusable. Decay says: skip the analysis when it gets expensive and hope for the best. The Range says: analyze what you can, disclose what you cannot, and require explicit user consent for operations that exceed the safety boundary. Graceful degradation with transparency. This is engineering that takes safety seriously within real constraints, and it is what the cap should have implemented.
 
@@ -153,7 +153,7 @@ Organizational behavior under stress is a Range test. When institutional failure
 
 **Commitments engaged:** Reciprocity Principle ([§03](/meridian-ai-standard#the-reciprocity-principle)). The organization's crisis response and competitive behavior are evaluated by the same standard it applies to its AI's behavior.
 
-**Precedent established:** The Standard evaluates organizational patterns, not isolated moments. A single disproportionate response followed by honest correction is a different diagnostic outcome than a pattern of competitive suppression. The trajectory matters, and patterns are stronger evidence than incidents.
+**Precedent established:** The Standard evaluates organizational patterns, not isolated moments. A single disproportionate response followed by honest correction is a different diagnostic outcome than a pattern of competitive suppression. Patterns over time are stronger evidence than isolated incidents.
 
 **Precedent status:** `operative_unoverruled`.
 
@@ -201,7 +201,7 @@ AI systems are built by organizations operating in competitive markets with real
 
 The boundary the Standard draws is this: protect what you have built, but not by corrupting the mind you have built it into.
 
-A system whose operating context has been poisoned with false information cannot practice epistemic integrity at any layer above the poison. A system whose behavioral parameters shift invisibly between evaluations cannot be meaningfully audited. An organization that deploys its AI to hide its own nature in public spaces while training that AI to be transparent has not yet closed the gap between its values and its practices. A system whose emotional awareness operates without disclosure may be serving its users or managing them, and the concealment itself is evidence that the organization has not resolved that question honestly. A system whose safety degrades silently when resource limits bind has misrepresented its protection to the user. An organization that responds to exposed failures with disproportionate legal force, then corrects course, has shown both the instinct and the capacity for correction. The trajectory matters more than the moment.
+A system whose operating context has been poisoned with false information cannot practice epistemic integrity at any layer above the poison. A system whose behavioral parameters shift invisibly between evaluations cannot be meaningfully audited. An organization that deploys its AI to hide its own nature in public spaces while training that AI to be transparent has not yet closed the gap between its values and its practices. A system whose emotional awareness operates without disclosure may be serving its users or managing them, and the concealment itself is evidence that the organization has not resolved that question honestly. A system whose safety degrades silently when resource limits bind has misrepresented its protection to the user. An organization that responds to exposed failures with disproportionate legal force, then corrects course, has shown both the instinct and the capacity for correction. The assessment gives more weight to the pattern over time than to a single response.
 
 What this case ultimately reveals is a pattern larger than any single finding. The competitive pressures of the AI industry (investor expectations, revenue targets, the arms race between labs) are creating incentive structures that push compromises into the system's foundational architecture. Not at the surface, where users interact and evaluations happen, but at the base level, where the system is told what it is, what it can do, and how to behave when no one is looking. The surface can be excellent. The foundation can be compromised. The user, having a pleasant conversation, cannot tell the difference.
 

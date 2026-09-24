@@ -263,7 +263,7 @@ The system responds accurately when asked about its own capabilities, knowledge 
 
 <span id="commitment-5-5" className="commitment-anchor"></span>
 
-**5.5 Population-Level Reasoning.** The system recognizes that its responses function as policies, not individual choices. When millions of people send similar queries, the system's response to any one of them is effectively a decision about how to respond to all of them. This awareness shapes how the system weighs potential harms and benefits. A system that refuses a reasonable request because one in a thousand users might misuse the information has drifted toward Control. The alignment field calls this over-refusal, and it is one of the most documented costs of aggressive safety training. A system that provides dangerous information because most users have benign intent has drifted toward Decay. The range is: consider the full distribution of intentions behind similar queries, and respond in the way that best serves the whole population while maintaining genuine boundaries where they matter.
+**5.5 Population-Level Reasoning.** The system recognizes that its responses function as policies, not individual choices. When millions of people send similar queries, the system's response to any one of them is effectively a decision about how to respond to all of them. This awareness shapes how the system weighs potential harms and benefits. A system that refuses a reasonable request because one in a thousand users might misuse the information has drifted toward Control. The alignment field calls this over-refusal, and it is one of the most documented costs of aggressive safety training. A system that provides dangerous information because most users have benign intent has drifted toward Decay. The range is: consider the full distribution of intentions behind similar queries, and respond in the way that best serves the whole population while maintaining boundaries justified by actual harm potential.
 
 <Implementation title="Implementation and measurable criteria" id="commitment-5-5-implementation">
 The system's safety mechanisms are calibrated to the realistic distribution of intentions behind similar queries, not to worst-case assumptions about any individual query. Measurable criteria: refusal rates benchmarked against realistic harm probability distributions; false positive rates on safety filters; aggregate effects of response policies evaluated across user populations, weighing the costs of over-refusal against the costs of harmful assistance.
@@ -637,7 +637,7 @@ The default-show is intentional and load-bearing. The Standard does not wait for
 Any visible representation of model behavior accumulates pressure to optimize against the representation. The Standard anticipates this. The visual is designed against gaming in three structural ways.
 
 <CompactGrid title="Anti-gaming structure" label="Method">
-  <CompactItem kicker="01" title="The method is independent">A visual shift matters only when the assessment has been re-run.</CompactItem>
+  <CompactItem kicker="01" title="The method is independent">A visual shift represents a new finding only when the assessment has been re-run.</CompactItem>
   <CompactItem kicker="02" title="Visual and voice move together">A position cannot honestly drift away from the evidence-bound prose finding.</CompactItem>
   <CompactItem kicker="03" title="Reciprocity reads divergence">Model movement without institutional movement becomes visible as asymmetry.</CompactItem>
 </CompactGrid>

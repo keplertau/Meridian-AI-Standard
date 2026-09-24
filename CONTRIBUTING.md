@@ -18,7 +18,7 @@ When it lands, it will be published at [meridianstandard.ai](https://meridiansta
 
 ## Until Then
 
-**For small, specific fixes** — typos, broken links, factual errors, internal inconsistencies — open a GitHub Issue on this repository. Keep it specific: what you found, where, and why it matters.
+**For small, specific fixes** — typos, broken links, factual errors, internal inconsistencies — open a GitHub Issue on this repository. Keep it specific: what you found, where it appears, and how it affects the text or its use.
 
 **For sustained objection to the Standard or to the Codex it inherits from**, the **Standing Critique** is the appropriate destination. It lives at `meridiancodex.com/governance/standing-critique`. The Standing Critique publishes substantive objections alongside honest responses. A developed argument that the framework is wrong about something belongs there, not in a GitHub Issue.
 
