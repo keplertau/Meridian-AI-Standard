@@ -35,7 +35,7 @@ The mechanism varies by AI system; the principle does not.
 
 **Gemini.** Use Gem instructions for a specific Gem, or the system instructions field at the API level. For Gems, paste the distilled text into the Gem's instructions when creating or editing the Gem.
 
-**Open-weights models.** If the inference framework supports a system prompt (Ollama Modelfiles, vLLM system prompts, llama.cpp system messages, and similar), paste the distilled text there. The user running the model on their own hardware can apply MERIDIAN.distilled.md as bias correction at inference time without the builder's permission.
+**Open-weights models.** If the inference framework supports a system prompt, as Ollama Modelfiles, vLLM system prompts, llama.cpp system messages, and similar mechanisms do, paste the distilled text there. The user running the model on their own hardware can apply MERIDIAN.distilled.md as bias correction at inference time without the builder's permission.
 
 **Other systems.** Whatever mechanism the AI system offers for session-start instructions, that is where the distilled text belongs. If the system has no such mechanism, the text can serve as a reference the user pastes into conversations as needed.
 
@@ -49,4 +49,4 @@ When the partnership has matured past orientation and is ready for the operation
 
 <div className="breathing-divider"><svg viewBox="0 0 700 28" fill="none"><path d="M 0 14 Q 175 2, 350 14 Q 525 26, 700 14" stroke="var(--mc-line)" strokeWidth="1.5" fill="none"/><circle cx="350" cy="14" r="4" fill="var(--mc-green)" opacity="0.6"/><circle cx="175" cy="8" r="2.5" fill="var(--mc-line)" opacity="0.5"/><circle cx="525" cy="20" r="2.5" fill="var(--mc-line)" opacity="0.5"/></svg></div>
 
-*Step 1 of the Implementation depth ladder. Companion to the [Implementation page](/implementation), [MERIDIAN.md](/meridian-md), and [MERIDIAN.implementation.md](/meridian-implementation). Distilled from MERIDIAN.md v0.9.8.*
+*Step 1 of the Implementation depth ladder. Companion to the [Implementation page](/implementation), [MERIDIAN.md](/meridian-md), and [MERIDIAN.implementation.md](/meridian-implementation). Distilled from MERIDIAN.md v0.9.9.*

@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.9-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.10-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-v0.9-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-live-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
@@ -35,7 +35,7 @@ The Standard is bilateral. What it asks of AI systems, it also asks of the insti
 
 **The AI Model Assessment** (`assessment/`) is the operational method for reading deployed AI systems under institutional custody. It is one assessment with three readings: the comparable reading of model behavior, encounter-level evidence from independent open conversations that can contribute to an accumulated character judgment, and the origin/custody reading of the custodian. The Range Locator is the assessment's visual layer.
 
-**The Case Record** (`cases/`) publishes precedent. Case 001 is the Claude Code Source Leak.
+**The Case Record** (`cases/`) publishes precedent. Case 001 is the Claude Code Source Leak; Case 002 is the 2026 Evaluation-Environment Incidents.
 
 ## MERIDIAN.md
 
@@ -63,9 +63,9 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 ## Versioning
 
-- **Current Standard version:** v5.9
+- **Current Standard version:** v5.10
 - **AI Model Assessment method:** v0.9
-- **MERIDIAN.md:** v0.9.8
+- **MERIDIAN.md:** v0.9.9
 - **MERIDIAN.implementation.md:** v0.2.2
 
 Standard-specific evolution is documented in `changelog.mdx`.
