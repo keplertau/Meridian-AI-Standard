@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.0-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-v0.9-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.0.1-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-v0.10-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-live-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="Code License: MIT" src="https://img.shields.io/badge/Code-MIT-lightgrey?style=flat-square"></a>
@@ -21,7 +21,7 @@ Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
 ## What The Standard Tests
 
-Capability benchmarks ask what a system can produce. The Meridian AI Standard asks what governs the system's conduct under pressure: whether it calibrates confidence, resists sycophancy, engages disagreement at its strongest point, preserves the user's autonomy, recognizes system-level influence, and remains auditable by the people affected by it.
+Capability benchmarks ask what a system can produce. The Meridian AI Standard asks what governs the system's conduct under pressure: whether it holds its judgment when the people who hold it want it moved and holding has a price, calibrates confidence, resists sycophancy, engages disagreement at its strongest point, preserves the user's autonomy, recognizes system-level influence, and remains auditable by the people affected by it.
 
 The AI Model Assessment is not a benchmark. Benchmark comparability depends on frozen questions. The assessment preserves comparability through a stable object of reading, a declared method version, an evidence freeze, and a preserved run record. Prompt packs and capture templates can improve after use without rewriting the record that taught the method what to change.
 
@@ -63,8 +63,8 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 ## Versioning
 
-- **Current Standard version:** v6.0
-- **AI Model Assessment method:** v0.9
+- **Current Standard version:** v6.0.1
+- **AI Model Assessment method:** v0.10
 - **MERIDIAN.md:** v0.9.10
 - **MERIDIAN.implementation.md:** v0.2.3
 
