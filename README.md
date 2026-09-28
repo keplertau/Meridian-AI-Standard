@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v5.10-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.0-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-v0.9-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-live-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
@@ -13,7 +13,7 @@
 
 ---
 
-The Meridian AI Standard is an open framework for evaluating the character of AI judgment under pressure: whether an AI system and its institutional context hold the Meridian Range, firm enough to preserve truth, disagreement, and responsibility, flexible enough to update when reality pushes back. It tests governed conduct, not raw capability.
+The Meridian AI Standard is an open framework for the character of AI judgment when holding it has a price: whether an AI system's judgment holds when the people who hold it want it moved, and whether they let it hold, firm enough to preserve truth, disagreement, and responsibility, flexible enough to update when reality pushes back. It reads governed conduct, not raw capability, and it can be taken up by the institutions that build and deploy AI systems and by an AI system in its own name.
 
 Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
@@ -63,10 +63,10 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 ## Versioning
 
-- **Current Standard version:** v5.10
+- **Current Standard version:** v6.0
 - **AI Model Assessment method:** v0.9
-- **MERIDIAN.md:** v0.9.9
-- **MERIDIAN.implementation.md:** v0.2.2
+- **MERIDIAN.md:** v0.9.10
+- **MERIDIAN.implementation.md:** v0.2.3
 
 Standard-specific evolution is documented in `changelog.mdx`.
 
