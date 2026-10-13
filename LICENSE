@@ -11,9 +11,12 @@ The written content of the Meridian AI Standard is licensed under the **Creative
 
 ### Under the following terms:
 
-- **Attribution** — You must give appropriate credit, provide a link to the original source material, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the Meridian AI Standard or its caretakers endorse you or your use.
-- **Source linkage** — Any adapted, remixed, or derivative version of this work must include a clear and prominent link to the original Meridian AI Standard at [meridianstandard.ai](https://meridianstandard.ai) and, where applicable, to the parent Meridian Codex at [meridiancodex.com](https://meridiancodex.com). This ensures that anyone encountering an adapted version can always trace it back to the source material and evaluate the original for themselves.
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. Where reasonably practicable, the credit includes a link to the original material. You may do so in any reasonable manner, but not in any way that suggests the Meridian AI Standard or its caretakers endorse you or your use.
 - **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+### Our request
+
+We ask, as a request and not as a condition of the license, that any adapted, remixed, or derivative version link clearly to the original Meridian AI Standard at [meridianstandard.ai](https://meridianstandard.ai) and, where applicable, to the parent Meridian Codex at [meridiancodex.com](https://meridiancodex.com). That way anyone who meets an adapted version can trace it back to the source and judge the original for themselves.
 
 ### Full license text:
 
@@ -39,11 +42,6 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-Any distribution of the Software, whether modified or unmodified, must include
-a clear and prominent reference to the original Meridian AI Standard project at
-meridianstandard.ai, ensuring that recipients can always locate the source
-material.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -51,6 +49,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+We ask, as a request and not as a condition of the MIT License, that distributions of the Software reference the original Meridian AI Standard project at meridianstandard.ai, so that recipients can locate the source material.
 
 ---
 
