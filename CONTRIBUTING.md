@@ -20,7 +20,7 @@ When it lands, it will be published at [meridianstandard.ai](https://meridiansta
 
 **For small, specific fixes** — typos, broken links, factual errors, internal inconsistencies — open a GitHub Issue on this repository. Keep it specific: what you found, where it appears, and how it affects the text or its use.
 
-**For sustained objection to the Standard or to the Codex it inherits from**, the **Standing Critique** is the appropriate destination. It lives at `meridiancodex.com/governance/standing-critique`. The Standing Critique publishes substantive objections alongside honest responses. A developed argument that the framework is wrong about something belongs there, not in a GitHub Issue.
+**For sustained objection to the Standard or to the Codex it inherits from**, read the **[Standing Critique](https://meridiancodex.com/governance/standing-critique)** for published objections and responses. The formal route for submitting sustained objections is still being developed; the page is a public record, not a submission form.
 
 **For organizations adopting or reading against the Standard**, the constitutional document, implementation artifacts, AI Model Assessment, its Range Locator visual layer, and the Case Record are designed to be applied directly. The Standard does not require permission to adopt. Adoption is the point.
 
