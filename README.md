@@ -31,7 +31,9 @@ Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 | Read published model assessments | [Assessment](https://meridianstandard.ai/assessment) · [Range Locator](https://meridianstandard.ai/range-locator) |
 | Examine cases and revisions | [Case Record](https://meridianstandard.ai/cases) · [Changelog](https://meridianstandard.ai/changelog) |
 
-## What The Standard Reads
+<a id="what-the-standard-reads"></a>
+
+## What The Standard Examines
 
 The Standard's thirty commitments cover truthful judgment, calibrated confidence, good-faith engagement, systems awareness, the limits of oversight and autonomy, and governance transparency. They ask whether a system can hold a warranted position, revise it when the grounds change, and let people affected by its actions know what kind of judgment is acting on them and whether a deployer or a law has changed it.
 
