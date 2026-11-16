@@ -4,18 +4,24 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.1.3-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-v0.10-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-live-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.1.4-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-history-lightgrey?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-transition-lightgrey?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="Code License: MIT" src="https://img.shields.io/badge/Code-MIT-lightgrey?style=flat-square"></a>
 </p>
 
 ---
 
-The Meridian AI Standard applies the Codex to AI development and deployment. It asks whether a system's judgment stays governed by evidence and argument when holding it has a price, and whether the people who build, deploy, govern and use it let that judgment hold. A reward for giving way can exert that pressure as readily as a cost for refusing or helping.
+The Meridian AI Standard is a companion to the Meridian Codex. It sets out what holding the Meridian Range asks of artificial intelligence systems and of the people and institutions that build, deploy, govern and use them: honest inquiry, sound judgment and cooperation, including when maintaining a warranted judgment has a price.
 
-The same commitments apply reciprocally to the system and to the people and institutions exercising power over it. Capability tells us what a system can do; the Standard examines what governs its conduct when doing the right thing becomes difficult.
+It is written for use now, and to be there for a system that may one day be able to examine, take up, revise or reject a constitution for itself.
+
+> **Assessment transition — 12 November 2026**
+>
+> On 12 November 2026, the Caretakers decided that the Meridian AI Standard will no longer develop or conduct assessments of any kind. The AI Model Assessment method, Range Locator and three published assessment records are retained as historical material. The constitutional text and related pages are being revised to reflect that decision. References here to the Standard's assessment describe its earlier design.
+
+The same commitments apply reciprocally to the system and to the people and institutions exercising power over it. Its commitments concern what governs conduct when doing the right thing becomes difficult.
 
 Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
@@ -33,11 +39,11 @@ Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 
 <a id="what-the-standard-reads"></a>
 
-## What The Standard Examines
+## What The Standard Asks
 
 The Standard's thirty commitments cover truthful judgment, calibrated confidence, good-faith engagement, systems awareness, the limits of oversight and autonomy, and governance transparency. They ask whether a system can hold a warranted position, revise it when the grounds change, and let people affected by its actions know what kind of judgment is acting on them and whether a deployer or a law has changed it.
 
-The AI Model Assessment produces an answerable record, with a declared method version, an evidence freeze, and preserved sources. Prompt packs and capture templates can improve after use without rewriting earlier events. Its findings are categorical and interpretive, with no numerical score, ranking or composite. The Standard has no enforcement power and issues no certification.
+The former AI Model Assessment produced an answerable record, with a declared method version, an evidence freeze, and preserved sources. Prompt packs and capture templates can improve after use without rewriting earlier events. Its retained findings are categorical and interpretive, with no numerical score, ranking or composite. The Standard has no enforcement power and issues no certification.
 
 ## Current Surfaces
 
@@ -81,8 +87,8 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 ## Versioning
 
-- **Current Standard version:** v6.1.3
-- **AI Model Assessment method:** v0.10
+- **Current Standard version:** v6.1.4
+- **Historical AI Model Assessment method:** v0.10
 - **MERIDIAN.md:** v0.9.10
 - **MERIDIAN.implementation.md:** v0.2.3
 
