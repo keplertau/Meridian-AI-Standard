@@ -19,20 +19,20 @@
 !CONTRIBUTING.md
 !LICENSE
 
-# The canonical generalized MERIDIAN.md (single source of truth) plus the distilled companion
-# and the operational practice file (the third tool of the Implementation depth ladder).
-!MERIDIAN.md
-!MERIDIAN.distilled.md
-!MERIDIAN.implementation.md
+# The three MERIDIAN files and their adoption pages retired on 2026-11-17.
+# This archive and its README are explicitly authorized by Carsten.
+!retired/
+!retired/README.md
+!retired/MERIDIAN.md
+!retired/MERIDIAN.distilled.md
+!retired/MERIDIAN.implementation.md
+!retired/meridian-md.mdx
+!retired/meridian-md-distilled.mdx
+!retired/meridian-implementation.mdx
 
-# Root surfaces: constitutional document, MERIDIAN.md adoption pages, Implementation
-# depth-ladder pages, and changelog. The retired meridian-md-template.mdx page is
-# no longer published from the public repository.
+# Current root surfaces. Retired adoption pages are admitted only under retired/.
 !meridian-ai-standard.mdx
-!meridian-md.mdx
 !implementation.mdx
-!meridian-md-distilled.mdx
-!meridian-implementation.mdx
 !changelog.mdx
 
 # The AI Model Assessment (method page and Range Locator Details records). The
