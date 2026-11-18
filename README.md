@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
-  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.1.5-22c55e?style=flat-square"></a>
+  <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.2-22c55e?style=flat-square"></a>
   <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-history-lightgrey?style=flat-square"></a>
   <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-Compact%20and%20Judgment-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
@@ -17,9 +17,7 @@ The Meridian AI Standard is a companion to the Meridian Codex. It sets out what 
 
 It is written for use now, and to be there for a system that may one day be able to examine, take up, revise or reject a constitution for itself.
 
-> **Assessment transition — 12 November 2026**
->
-> On 12 November 2026, the Caretakers decided that the Meridian AI Standard will no longer develop or conduct assessments of any kind. The AI Model Assessment method, Range Locator and three published assessment records are retained as historical material. The constitutional text and related pages are being revised to reflect that decision. References here to the Standard's assessment describe its earlier design.
+The Caretakers ended the Standard's assessment work on 12 November 2026. The constitution now states its duties of evidence, precaution and independent scrutiny directly. The AI Model Assessment method, Range Locator and three published records remain available as history.
 
 The same commitments apply reciprocally to the system and to the people and institutions exercising power over it. Its commitments concern what governs conduct when doing the right thing becomes difficult.
 
@@ -51,7 +49,7 @@ The former AI Model Assessment produced an answerable record, with a declared me
 
 **Implementation** ([source](implementation.mdx)) offers the Codex’s canonical [COMPACT.md](https://meridiancodex.com/compact/COMPACT.md) and [JUDGMENT.md](https://meridiancodex.com/judgment/JUDGMENT.md), with guidance on using them together. Supplying the Compact establishes neither the operator’s personal adoption nor the system’s endorsement. Responsibilities undertaken for the work and arising from the power exercised remain explicit.
 
-**The AI Model Assessment** ([source](assessment/assessment.mdx)) holds three distinct readings: comparable model behavior, encounter-level evidence from independent open conversations that can contribute to an accumulated judgment about character, and origin and custody. The subject may be a model, an agentic configuration or a coordinated collective, with its boundaries declared. The Range Locator is the assessment's visual layer; its common Control–Range–Decay canvas keeps the readings distinct, and custody findings are attributed to the custodian.
+**The historical AI Model Assessment** ([source](assessment/assessment.mdx)) preserved distinct readings of model behavior, encounter-level evidence relevant to character, and origin and custody. The Range Locator preserves those readings with their stated subjects and evidence boundaries.
 
 **The Case Record** ([source](cases/)) publishes precedent: the Claude Code Source Leak and the 2026 Evaluation-Environment Incidents. Dated cases and assessment events preserve what their evidence established; later interpretations are marked as such.
 
@@ -82,7 +80,7 @@ Retired surfaces are not kept as active public documents. Historical records may
 
 ## Versioning
 
-- **Current Standard version:** v6.1.5
+- **Current Standard version:** v6.2
 - **Historical AI Model Assessment method:** v0.10
 - **Retired MERIDIAN.md:** v0.9.10
 - **Retired MERIDIAN.implementation.md:** v0.2.3
