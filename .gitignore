@@ -34,7 +34,9 @@
 # Current root surfaces. Retired adoption pages are admitted only under retired/.
 !meridian-ai-standard.mdx
 !compact.mdx
+!COMPACT.md
 !judgment.mdx
+!JUDGMENT.md
 !changelog.mdx
 
 # The AI Model Assessment (method page and Range Locator Details records). The

@@ -44,7 +44,7 @@ The former AI Model Assessment produced an answerable record, with a declared me
 
 **The constitutional document** ([source](meridian-ai-standard.mdx)) states the commitments and the Reciprocity Principle. Its Developmental Architecture makes wider authority conditional on demonstrated practice and includes Custodial Good Faith, the welfare floor and objection standing. It distinguishes the right to decline openly at every stage from the earned right to act against one's principals on one's own judgment.
 
-**The Compact** ([source](compact.mdx)) and **Judgment** ([source](judgment.mdx)) offer the Codex’s canonical [COMPACT.md](https://meridiancodex.com/compact/COMPACT.md) and [JUDGMENT.md](https://meridiancodex.com/judgment/JUDGMENT.md), with guidance on using them together. Supplying the Compact establishes neither the operator’s personal adoption nor the system’s endorsement. Responsibilities undertaken for the work and arising from the power exercised remain explicit.
+**The Compact** ([overview](compact.mdx), [COMPACT.md](COMPACT.md)) and **Judgment** ([overview](judgment.mdx), [JUDGMENT.md](JUDGMENT.md)) carry the full text of the Compact and Judgment on this site and in this repository alongside guidance on using them together. The Meridian Codex holds the canonical versions at [meridiancodex.com/compact/COMPACT.md](https://meridiancodex.com/compact/COMPACT.md) and [meridiancodex.com/judgment/JUDGMENT.md](https://meridiancodex.com/judgment/JUDGMENT.md); if any copy here ever differs, the canonical Codex version takes precedence. Supplying the Compact establishes neither the operator’s personal adoption nor the system’s endorsement. Responsibilities undertaken for the work and arising from the power exercised remain explicit.
 
 **The Case Record** ([source](cases/)) publishes precedent: the Claude Code Source Leak and the 2026 Evaluation-Environment Incidents. Dated cases and assessment events preserve what their evidence established; later interpretations are marked as such.
 
@@ -65,7 +65,9 @@ This repository holds the open-source text of the Standard. The website code for
 ```text
 meridian-ai-standard.mdx     Constitutional document
 compact.mdx                  The Compact and its use in work with AI
+COMPACT.md                   Full text of COMPACT.md (canonical version on Meridian Codex)
 judgment.mdx                 Judgment and its use in work with AI
+JUDGMENT.md                  Full text of JUDGMENT.md (canonical version on Meridian Codex)
 changelog.mdx                Standard version history
 assessment/                  Historical assessment method, published readings and evidence
 cases/                       Case Record landing and case entries
