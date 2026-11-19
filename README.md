@@ -5,8 +5,6 @@
 <p align="center">
   <a href="https://meridianstandard.ai"><img alt="Website" src="https://img.shields.io/badge/meridianstandard.ai-0f172a?style=flat-square&labelColor=0f172a&color=0f172a"></a>
   <a href="https://meridianstandard.ai/meridian-ai-standard"><img alt="Standard" src="https://img.shields.io/badge/Standard-v6.2-22c55e?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/assessment"><img alt="AI Model Assessment" src="https://img.shields.io/badge/Assessment-history-lightgrey?style=flat-square"></a>
-  <a href="https://meridianstandard.ai/implementation"><img alt="Implementation" src="https://img.shields.io/badge/Implementation-Compact%20and%20Judgment-22c55e?style=flat-square"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License: CC BY 4.0" src="https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey?style=flat-square"></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="Code License: MIT" src="https://img.shields.io/badge/Code-MIT-lightgrey?style=flat-square"></a>
 </p>
@@ -30,9 +28,8 @@ Read the Standard at [meridianstandard.ai](https://meridianstandard.ai).
 | If you want to… | Start here |
 |---|---|
 | Read the commitments | [The constitutional document](https://meridianstandard.ai/meridian-ai-standard) |
-| Use the Compact and Judgment in work with AI | [Implementation](https://meridianstandard.ai/implementation) |
-| Understand the former assessment method | [AI Model Assessment method (history)](https://meridianstandard.ai/assessment/method) |
-| Read historical model assessments | [Assessment](https://meridianstandard.ai/assessment) · [Range Locator](https://meridianstandard.ai/range-locator) |
+| Use the Compact and Judgment in work with AI | [The Compact](https://meridianstandard.ai/compact) · [Judgment](https://meridianstandard.ai/judgment) |
+| Read the former assessment method and evidence | [Historical assessment records](assessment/) |
 | Examine cases and revisions | [Case Record](https://meridianstandard.ai/cases) · [Changelog](https://meridianstandard.ai/changelog) |
 
 <a id="what-the-standard-reads"></a>
@@ -47,9 +44,7 @@ The former AI Model Assessment produced an answerable record, with a declared me
 
 **The constitutional document** ([source](meridian-ai-standard.mdx)) states the commitments and the Reciprocity Principle. Its Developmental Architecture makes wider authority conditional on demonstrated practice and includes Custodial Good Faith, the welfare floor and objection standing. It distinguishes the right to decline openly at every stage from the earned right to act against one's principals on one's own judgment.
 
-**Implementation** ([source](implementation.mdx)) offers the Codex’s canonical [COMPACT.md](https://meridiancodex.com/compact/COMPACT.md) and [JUDGMENT.md](https://meridiancodex.com/judgment/JUDGMENT.md), with guidance on using them together. Supplying the Compact establishes neither the operator’s personal adoption nor the system’s endorsement. Responsibilities undertaken for the work and arising from the power exercised remain explicit.
-
-**The historical AI Model Assessment** ([source](assessment/assessment.mdx)) preserved distinct readings of model behavior, encounter-level evidence relevant to character, and origin and custody. The Range Locator preserves those readings with their stated subjects and evidence boundaries.
+**The Compact** ([source](compact.mdx)) and **Judgment** ([source](judgment.mdx)) offer the Codex’s canonical [COMPACT.md](https://meridiancodex.com/compact/COMPACT.md) and [JUDGMENT.md](https://meridiancodex.com/judgment/JUDGMENT.md), with guidance on using them together. Supplying the Compact establishes neither the operator’s personal adoption nor the system’s endorsement. Responsibilities undertaken for the work and arising from the power exercised remain explicit.
 
 **The Case Record** ([source](cases/)) publishes precedent: the Claude Code Source Leak and the 2026 Evaluation-Environment Incidents. Dated cases and assessment events preserve what their evidence established; later interpretations are marked as such.
 
@@ -69,9 +64,10 @@ This repository holds the open-source text of the Standard. The website code for
 
 ```text
 meridian-ai-standard.mdx     Constitutional document
-implementation.mdx          Canonical Compact and Judgment offer
+compact.mdx                  The Compact and its use in work with AI
+judgment.mdx                 Judgment and its use in work with AI
 changelog.mdx                Standard version history
-assessment/                  AI Model Assessment method and published readings
+assessment/                  Historical assessment method, published readings and evidence
 cases/                       Case Record landing and case entries
 retired/                     Historical MERIDIAN files and adoption pages
 ```

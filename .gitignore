@@ -29,10 +29,12 @@
 !retired/meridian-md.mdx
 !retired/meridian-md-distilled.mdx
 !retired/meridian-implementation.mdx
+!retired/implementation.mdx
 
 # Current root surfaces. Retired adoption pages are admitted only under retired/.
 !meridian-ai-standard.mdx
-!implementation.mdx
+!compact.mdx
+!judgment.mdx
 !changelog.mdx
 
 # The AI Model Assessment (method page and Range Locator Details records). The
